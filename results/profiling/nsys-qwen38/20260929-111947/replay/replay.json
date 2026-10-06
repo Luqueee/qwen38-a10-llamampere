@@ -1,0 +1,142 @@
+{
+  "total_seconds": 114.39891834799982,
+  "request_count": 15,
+  "successful_requests": 15,
+  "requests": [
+    {
+      "id": 1,
+      "path": "/v1/chat/completions",
+      "status": 200,
+      "elapsed_seconds": 9.333903411999927,
+      "ttfb_seconds": 9.333826289999706,
+      "response_bytes": 2320,
+      "response_sha256": "143a1d9fcbe69a3c7bff93fe893635f37d718aed9bf129857ac74943c41e5806"
+    },
+    {
+      "id": 2,
+      "path": "/v1/chat/completions",
+      "status": 200,
+      "elapsed_seconds": 13.441817685000387,
+      "ttfb_seconds": 13.441756452000845,
+      "response_bytes": 1600,
+      "response_sha256": "469b9a87463a777a7446cdc10e82f1b7ba11f7fe839e929830c447b0184197f3"
+    },
+    {
+      "id": 3,
+      "path": "/v1/chat/completions",
+      "status": 200,
+      "elapsed_seconds": 1.3580053410005348,
+      "ttfb_seconds": 1.3579296409998278,
+      "response_bytes": 954,
+      "response_sha256": "b81153971e686744288b49b072f7bc429aa45aee06a673ea7564767beb3722d4"
+    },
+    {
+      "id": 4,
+      "path": "/v1/chat/completions",
+      "status": 200,
+      "elapsed_seconds": 2.7204265740001574,
+      "ttfb_seconds": 2.7203502380007194,
+      "response_bytes": 1126,
+      "response_sha256": "6b8f316c7cce17c6592d3531601a6c48c8c59820de7fc5873fae14891b2110ce"
+    },
+    {
+      "id": 5,
+      "path": "/v1/chat/completions",
+      "status": 200,
+      "elapsed_seconds": 2.0954647120006484,
+      "ttfb_seconds": 2.0953893690002587,
+      "response_bytes": 1022,
+      "response_sha256": "5031f768282b662577553fb74125ac9b01ea3ad765323d53ad954698022acc09"
+    },
+    {
+      "id": 6,
+      "path": "/v1/chat/completions",
+      "status": 200,
+      "elapsed_seconds": 1.4477893439998297,
+      "ttfb_seconds": 1.447713190000286,
+      "response_bytes": 976,
+      "response_sha256": "eba51affb0a8a3ca5871d286fc01a4071b5a80ed030bd01a24108cad3de7fc48"
+    },
+    {
+      "id": 7,
+      "path": "/v1/chat/completions",
+      "status": 200,
+      "elapsed_seconds": 1.4029439030000503,
+      "ttfb_seconds": 1.4028691080002318,
+      "response_bytes": 1000,
+      "response_sha256": "8639e1484e2bfc0386af2c1868322e68e5b2597092a3a53d8cc165b85ff05de0"
+    },
+    {
+      "id": 8,
+      "path": "/v1/chat/completions",
+      "status": 200,
+      "elapsed_seconds": 3.8431430010004988,
+      "ttfb_seconds": 3.843067261000215,
+      "response_bytes": 1362,
+      "response_sha256": "d76763a2e4a1e8a08288557da517a6900cdbebe14789ad61ee771112f9dd9bbc"
+    },
+    {
+      "id": 9,
+      "path": "/v1/chat/completions",
+      "status": 200,
+      "elapsed_seconds": 3.7956139620000613,
+      "ttfb_seconds": 3.7955425519994606,
+      "response_bytes": 1324,
+      "response_sha256": "f3fab93ba8dc6ae131bfc130c7075136474eb3b38d7deaccc9adfec7dc8edffd"
+    },
+    {
+      "id": 10,
+      "path": "/v1/chat/completions",
+      "status": 200,
+      "elapsed_seconds": 5.964746734000073,
+      "ttfb_seconds": 5.964674766999451,
+      "response_bytes": 1633,
+      "response_sha256": "9b4752dcdbca47db9d6b3c42487ca7cb0f9a16bb541d93db3b7127dd23a11380"
+    },
+    {
+      "id": 11,
+      "path": "/v1/chat/completions",
+      "status": 200,
+      "elapsed_seconds": 13.686823631999687,
+      "ttfb_seconds": 13.686743719000333,
+      "response_bytes": 2161,
+      "response_sha256": "ce26ec97c55a9e2d67dffcc29877b44f9613f1bfec1b6d7d8bd586a9f929961f"
+    },
+    {
+      "id": 12,
+      "path": "/v1/chat/completions",
+      "status": 200,
+      "elapsed_seconds": 6.880299997999828,
+      "ttfb_seconds": 6.880226115999903,
+      "response_bytes": 1111,
+      "response_sha256": "a63c8ee13fe06ffb72252243e2883da55fb1e29742acd3a435a76e1be7b7c245"
+    },
+    {
+      "id": 13,
+      "path": "/v1/chat/completions",
+      "status": 200,
+      "elapsed_seconds": 3.420934099999613,
+      "ttfb_seconds": 3.4208596400003444,
+      "response_bytes": 1136,
+      "response_sha256": "03f58a0607a3aab8ad4e444529925c44556d556ccedf1af1f69fd8dc24af5403"
+    },
+    {
+      "id": 14,
+      "path": "/v1/chat/completions",
+      "status": 200,
+      "elapsed_seconds": 13.354098886000429,
+      "ttfb_seconds": 13.354021764000208,
+      "response_bytes": 2113,
+      "response_sha256": "450fd930aaae5b21f97bda388662296fb46eee0c2a1d61ccf5af9b7e33448cbf"
+    },
+    {
+      "id": 15,
+      "path": "/v1/chat/completions",
+      "status": 200,
+      "elapsed_seconds": 31.650010252000357,
+      "ttfb_seconds": 31.649915935000536,
+      "response_bytes": 5760,
+      "response_sha256": "76fcfa0c8feb308da907ee7e6d8dd8e184fba3022176d33a5e4fa2db50830f7b"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "cpu": [
+    {
+      "e2e": 148.372,
+      "prefill": 699.65,
+      "generated": 9896.0,
+      "decode": 82.29,
+      "acceptance": 80.96,
+      "mean": 6.66,
+      "vram": 19539.0,
+      "energy": 6.013
+    }
+  ],
+  "gpu": [
+    {
+      "e2e": 150.046,
+      "prefill": 680.35,
+      "generated": 9896.0,
+      "decode": 81.68,
+      "acceptance": 80.96,
+      "mean": 6.66,
+      "vram": 19561.0,
+      "energy": 6.092
+    }
+  ],
+  "decode_gain_pct": -0.7412808360675704,
+  "decision": "KERNEL_NEXT: the verifier adds little; focus on IQ4_XS width8."
+}

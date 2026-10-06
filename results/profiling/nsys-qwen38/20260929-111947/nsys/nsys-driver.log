@@ -1,0 +1,34 @@
+[target] restarting model-serving
+[target] waiting for /health
+[target] healthy
+[target] STOP received
+Collecting data...
+Generating '/tmp/nsys-root/nsys-report-a4e3.qdstrm'
+
+[1/1] [0%                          ] profile.nsys-rep
+[1/1] [0%                          ] profile.nsys-rep
+[1/1] [1%                          ] profile.nsys-rep
+[1/1] [2%                          ] profile.nsys-rep
+[1/1] [5%                          ] profile.nsys-rep
+[1/1] [6%                          ] profile.nsys-rep
+[1/1] [7%                          ] profile.nsys-rep
+[1/1] [8%                          ] profile.nsys-rep
+[1/1] [9%                          ] profile.nsys-rep
+[1/1] [10%                         ] profile.nsys-rep
+[1/1] [11%                         ] profile.nsys-rep
+[1/1] [12%                         ] profile.nsys-rep
+[1/1] [13%                         ] profile.nsys-rep
+[1/1] [14%                         ] profile.nsys-rep
+[1/1] [=15%                        ] profile.nsys-rep
+[1/1] [=16%                        ] profile.nsys-rep
+[1/1] [=17%                        ] profile.nsys-rep
+[1/1] [==18%                       ] profile.nsys-rep
+[1/1] [==19%                       ] profile.nsys-rep
+[1/1] [==20%                       ] profile.nsys-rep
+[1/1] [====27%                     ] profile.nsys-rep
+[1/1] [=======================96%  ] profile.nsys-rep
+[1/1] [========================98% ] profile.nsys-rep
+[1/1] [========================100%] profile.nsys-rep
+[1/1] [========================100%] profile.nsys-rep
+Generated:
+	/home/ubuntu/tryton-replay/nsys/20260929-111947/profile.nsys-rep

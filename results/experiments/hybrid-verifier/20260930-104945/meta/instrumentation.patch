@@ -1,0 +1,368 @@
+diff --git a/common/reasoning-budget.cpp b/common/reasoning-budget.cpp
+index 4884299f3..632933869 100644
+--- a/common/reasoning-budget.cpp
++++ b/common/reasoning-budget.cpp
+@@ -275,6 +275,16 @@ common_reasoning_budget_state common_reasoning_budget_get_state(const struct lla
+     return ((const common_reasoning_budget_ctx *)smpl->ctx)->state;
+ }
+ 
++int32_t common_reasoning_budget_get_remaining(
++        const struct llama_sampler * smpl) {
++
++    if (!smpl) {
++        return -1;
++    }
++
++    return ((const common_reasoning_budget_ctx *) smpl->ctx)->remaining;
++}
++
+ const llama_tokens * common_reasoning_budget_get_end_match(const struct llama_sampler * smpl) {
+     if (!smpl) {
+         return nullptr;
+diff --git a/common/reasoning-budget.h b/common/reasoning-budget.h
+index 1b89a04c4..436cb9ddc 100644
+--- a/common/reasoning-budget.h
++++ b/common/reasoning-budget.h
+@@ -43,6 +43,9 @@ struct llama_sampler * common_reasoning_budget_init(
+ 
+ common_reasoning_budget_state common_reasoning_budget_get_state(const struct llama_sampler * smpl);
+ 
++int32_t common_reasoning_budget_get_remaining(
++        const struct llama_sampler * smpl);
++
+ // The end sequence that transitioned the sampler to DONE, or nullptr if none
+ // was recorded. Cleared when a new start sequence re-arms the sampler.
+ const llama_tokens * common_reasoning_budget_get_end_match(const struct llama_sampler * smpl);
+diff --git a/common/sampling.cpp b/common/sampling.cpp
+index 5cc2c5240..275096116 100644
+--- a/common/sampling.cpp
++++ b/common/sampling.cpp
+@@ -1083,6 +1083,65 @@ bool common_sampler_reasoning_budget_force(struct common_sampler * gsmpl) {
+     return common_reasoning_budget_force(gsmpl->rbudget);
+ }
+ 
++bool common_sampler_diag_has_grammar(
++        const struct common_sampler * gsmpl) {
++
++    return gsmpl && gsmpl->grmr;
++}
++
++bool common_sampler_diag_grammar_lazy(
++        const struct common_sampler * gsmpl) {
++
++    return
++        gsmpl &&
++        gsmpl->grmr &&
++        gsmpl->params.grammar_lazy;
++}
++
++bool common_sampler_diag_grammar_awaiting_trigger(
++        const struct common_sampler * gsmpl) {
++
++    return
++        gsmpl &&
++        gsmpl->grmr &&
++        gsmpl->params.grammar_lazy &&
++        llama_sampler_grammar_is_awaiting_trigger(
++            gsmpl->grmr
++        );
++}
++
++bool common_sampler_diag_has_reasoning_budget(
++        const struct common_sampler * gsmpl) {
++
++    return gsmpl && gsmpl->rbudget;
++}
++
++int32_t common_sampler_diag_reasoning_state(
++        const struct common_sampler * gsmpl) {
++
++    if (!gsmpl || !gsmpl->rbudget) {
++        return -1;
++    }
++
++    return (int32_t)
++        common_reasoning_budget_get_state(
++            gsmpl->rbudget
++        );
++}
++
++int32_t common_sampler_diag_reasoning_remaining(
++        const struct common_sampler * gsmpl) {
++
++    if (!gsmpl || !gsmpl->rbudget) {
++        return -1;
++    }
++
++    return
++        common_reasoning_budget_get_remaining(
++            gsmpl->rbudget
++        );
++}
++
+ // helpers
+ 
+ llama_token_data_array * common_sampler_get_candidates(struct common_sampler * gsmpl, bool do_sort) {
+diff --git a/common/sampling.h b/common/sampling.h
+index 7b5dc6a8f..0a3d410a2 100644
+--- a/common/sampling.h
++++ b/common/sampling.h
+@@ -147,6 +147,25 @@ uint32_t common_sampler_get_seed(const struct common_sampler * gsmpl);
+ // force the reasoning budget sampler (if any) to begin forcing its end sequence now.
+ bool common_sampler_reasoning_budget_force(struct common_sampler * gsmpl);
+ 
++// Read-only hybrid-verifier diagnostics.
++bool common_sampler_diag_has_grammar(
++        const struct common_sampler * gsmpl);
++
++bool common_sampler_diag_grammar_lazy(
++        const struct common_sampler * gsmpl);
++
++bool common_sampler_diag_grammar_awaiting_trigger(
++        const struct common_sampler * gsmpl);
++
++bool common_sampler_diag_has_reasoning_budget(
++        const struct common_sampler * gsmpl);
++
++int32_t common_sampler_diag_reasoning_state(
++        const struct common_sampler * gsmpl);
++
++int32_t common_sampler_diag_reasoning_remaining(
++        const struct common_sampler * gsmpl);
++
+ // helpers
+ 
+ // access the internal list of current candidate tokens
+diff --git a/include/llama.h b/include/llama.h
+index e71db09e6..e33c981f1 100644
+--- a/include/llama.h
++++ b/include/llama.h
+@@ -1632,6 +1632,10 @@ extern "C" {
+                             size_t num_trigger_tokens);
+ 
+ 
++    // Diagnostic helper for hybrid verifier investigation.
++    LLAMA_API bool llama_sampler_grammar_is_awaiting_trigger(
++            const struct llama_sampler * smpl);
++
+     /// NOTE: Avoid using on the full vocabulary as searching for repeated tokens can become slow. For example, apply top-k or top-p sampling first.
+     LLAMA_API struct llama_sampler * llama_sampler_init_penalties(
+                              int32_t   n_vocab,
+diff --git a/src/llama-sampler.cpp b/src/llama-sampler.cpp
+index 30e92d32c..e622aa1e9 100644
+--- a/src/llama-sampler.cpp
++++ b/src/llama-sampler.cpp
+@@ -2871,6 +2871,21 @@ struct llama_sampler * llama_sampler_init_grammar_lazy_patterns(
+     return llama_sampler_init_grammar_impl(vocab, grammar_str, grammar_root, /* lazy= */ true, nullptr, 0, trigger_tokens, num_trigger_tokens, trigger_patterns, num_trigger_patterns);
+ }
+ 
++bool llama_sampler_grammar_is_awaiting_trigger(
++        const struct llama_sampler * smpl) {
++
++    if (!smpl) {
++        return false;
++    }
++
++    const auto * ctx =
++        (const llama_sampler_grammar *) smpl->ctx;
++
++    return
++        ctx->grammar != nullptr &&
++        ctx->grammar->awaiting_trigger;
++}
++
+ // penalties
+ 
+ struct llama_sampler_penalties : public llama_sampler_backend {
+diff --git a/tools/server/server-context.cpp b/tools/server/server-context.cpp
+index 9b50b1179..79de43001 100644
+--- a/tools/server/server-context.cpp
++++ b/tools/server/server-context.cpp
+@@ -4627,15 +4627,179 @@ private:
+             {
+                 common_sampler_ptr smpl_save(common_sampler_clone(slot.smpl.get()));
+ 
+-                GGML_ASSERT(slot.spec_i_batch.size() == n_draft + 1);
+-                const auto & synth_probs = common_speculative_get_synth_probs(spec.get());
+-                auto accepted = !synth_probs.empty()
++                const bool diag_g_before =
++                    common_sampler_diag_has_grammar(
++                        slot.smpl.get()
++                    );
++
++                const bool diag_lazy_before =
++                    common_sampler_diag_grammar_lazy(
++                        slot.smpl.get()
++                    );
++
++                const bool diag_await_before =
++                    common_sampler_diag_grammar_awaiting_trigger(
++                        slot.smpl.get()
++                    );
++
++                const bool diag_rb_before =
++                    common_sampler_diag_has_reasoning_budget(
++                        slot.smpl.get()
++                    );
++
++                const int diag_rs_before =
++                    common_sampler_diag_reasoning_state(
++                        slot.smpl.get()
++                    );
++
++                const int diag_rem_before =
++                    common_sampler_diag_reasoning_remaining(
++                        slot.smpl.get()
++                    );
++
++                GGML_ASSERT(
++                    slot.spec_i_batch.size() ==
++                    n_draft + 1
++                );
++
++                const auto & synth_probs =
++                    common_speculative_get_synth_probs(
++                        spec.get()
++                    );
++
++                auto accepted =
++                    !synth_probs.empty()
+                     ? server_sample_and_accept_synth(
+-                            slot.smpl.get(), slot.ctx_tgt, slot.spec_i_batch, slot.spec_draft,
+-                            synth_probs, slot.spec_synth_rng, slot.spec_is_replay)
+-                    : (slot.spec_draft_q.empty()
+-                        ? common_sampler_sample_and_accept_n(slot.smpl.get(), slot.ctx_tgt, slot.spec_i_batch, slot.spec_draft)
+-                        : common_sampler_sample_and_accept_n_pq(slot.smpl.get(), slot.ctx_tgt, slot.spec_i_batch, slot.spec_draft, slot.spec_draft_q, false, slot.spec_is_replay));
++                        slot.smpl.get(),
++                        slot.ctx_tgt,
++                        slot.spec_i_batch,
++                        slot.spec_draft,
++                        synth_probs,
++                        slot.spec_synth_rng,
++                        slot.spec_is_replay
++                    )
++                    : (
++                        slot.spec_draft_q.empty()
++                        ? common_sampler_sample_and_accept_n(
++                            slot.smpl.get(),
++                            slot.ctx_tgt,
++                            slot.spec_i_batch,
++                            slot.spec_draft
++                        )
++                        : common_sampler_sample_and_accept_n_pq(
++                            slot.smpl.get(),
++                            slot.ctx_tgt,
++                            slot.spec_i_batch,
++                            slot.spec_draft,
++                            slot.spec_draft_q,
++                            false,
++                            slot.spec_is_replay
++                        )
++                    );
++
++                const bool diag_g_after =
++                    common_sampler_diag_has_grammar(
++                        slot.smpl.get()
++                    );
++
++                const bool diag_lazy_after =
++                    common_sampler_diag_grammar_lazy(
++                        slot.smpl.get()
++                    );
++
++                const bool diag_await_after =
++                    common_sampler_diag_grammar_awaiting_trigger(
++                        slot.smpl.get()
++                    );
++
++                const bool diag_rb_after =
++                    common_sampler_diag_has_reasoning_budget(
++                        slot.smpl.get()
++                    );
++
++                const int diag_rs_after =
++                    common_sampler_diag_reasoning_state(
++                        slot.smpl.get()
++                    );
++
++                const int diag_rem_after =
++                    common_sampler_diag_reasoning_remaining(
++                        slot.smpl.get()
++                    );
++
++                const int diag_rows =
++                    (int) n_draft + 1;
++
++                const bool diag_grammar_safe =
++                    !diag_g_before ||
++                    (
++                        diag_lazy_before &&
++                        diag_await_before &&
++                        diag_g_after &&
++                        diag_lazy_after &&
++                        diag_await_after
++                    );
++
++                // reasoning states:
++                // 0 = IDLE
++                // 1 = COUNTING
++                // 2 = FORCING
++                // 3 = WAITING_UTF8
++                // 4 = DONE
++                const bool diag_reason_start_safe =
++                    !diag_rb_before ||
++                    (
++                        diag_rs_before != 2 &&
++                        diag_rs_before != 3 &&
++                        (
++                            diag_rs_before != 1 ||
++                            diag_rem_before > diag_rows
++                        )
++                    );
++
++                const bool diag_reason_end_safe =
++                    !diag_rb_after ||
++                    (
++                        diag_rs_after != 2 &&
++                        diag_rs_after != 3
++                    );
++
++                const bool diag_safe =
++                    diag_grammar_safe &&
++                    diag_reason_start_safe &&
++                    diag_reason_end_safe;
++
++                SLT_INF(
++                    slot,
++                    "HYBRID_DIAG "
++                    "round=%d "
++                    "draft=%zu "
++                    "accepted=%zu "
++                    "g=%d "
++                    "lazy=%d "
++                    "await_before=%d "
++                    "await_after=%d "
++                    "rb=%d "
++                    "rs_before=%d "
++                    "rem_before=%d "
++                    "rs_after=%d "
++                    "rem_after=%d "
++                    "safe=%d\n",
++                    (int) slot.stats.n_draft_verif_steps + 1,
++                    n_draft,
++                    accepted.size() - 1,
++                    (int) diag_g_before,
++                    (int) diag_lazy_before,
++                    (int) diag_await_before,
++                    (int) diag_await_after,
++                    (int) diag_rb_before,
++                    diag_rs_before,
++                    diag_rem_before,
++                    diag_rs_after,
++                    diag_rem_after,
++                    (int) diag_safe
++                );
++
+                 slot.spec_i_batch.clear();
+ 
+                 GGML_ASSERT(accepted.size() >= 1);

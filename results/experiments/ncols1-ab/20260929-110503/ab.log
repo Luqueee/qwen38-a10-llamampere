@@ -1,0 +1,41 @@
+==========================================
+ NCOLS1_MIN A/B
+==========================================
+Remote       : lambdalabs
+Container    : model-serving
+Local output : /home/rookie/work/max/ncols1-ab/20260929-110503
+
+Saving initial docker inspect...
+
+Initial environment:
+GGML_Q8_TURBO3_MMA_NCOLS1_MIN=4
+
+
+==========================================
+ Configuring NCOLS1_MIN=2
+==========================================
+Current image: local/llamampere:sm86
+Stopping current container...
+Renaming current container to model-serving-ncols1-old...
+Starting new container...
+Waiting for health...
+Active environment: GGML_Q8_TURBO3_MMA_NCOLS1_MIN=2
+Removing rollback...
+NCOLS1_MIN=2 applied successfully.
+
+Remote value:
+GGML_Q8_TURBO3_MMA_NCOLS1_MIN=2
+
+==========================================
+ A/B COMPLETED
+==========================================
+
+All persistent results are in:
+
+  /home/rookie/work/max/ncols1-ab/20260929-110503
+
+Structure:
+/home/rookie/work/max/ncols1-ab/20260929-110503/ab.log
+/home/rookie/work/max/ncols1-ab/20260929-110503/container-after.json
+/home/rookie/work/max/ncols1-ab/20260929-110503/container-before.json
+/home/rookie/work/max/ncols1-ab/20260929-110503/container-ncols1-2.json

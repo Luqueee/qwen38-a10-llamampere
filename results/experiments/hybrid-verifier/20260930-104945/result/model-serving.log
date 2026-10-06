@@ -1,0 +1,1075 @@
+0.03.894.035 I slot get_availabl: id  0 | task -1 | selected slot by LRU, t_last = -1
+0.03.894.059 I srv        update: prompt cache: 0 prompts, 0.0 MiB (limit 8192.0 MiB, 131072 tokens, 8589934592 est)
+0.03.894.163 I slot launch_slot_: id  0 | task 0 | processing task, is_child = 0
+0.03.894.314 I slot   operator(): id  0 | task 0 | draft vocab hot: 3/2048 slots replaced, 14 candidates
+0.04.531.102 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=1 draft=7 accepted=5 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=510 rs_after=1 rem_after=504 safe=1
+0.04.620.723 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=2 draft=7 accepted=5 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=504 rs_after=1 rem_after=498 safe=1
+0.04.693.440 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=3 draft=7 accepted=4 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=498 rs_after=1 rem_after=493 safe=1
+0.04.767.078 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=4 draft=7 accepted=4 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=493 rs_after=1 rem_after=488 safe=1
+0.04.838.536 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=5 draft=7 accepted=3 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=488 rs_after=1 rem_after=484 safe=1
+0.04.909.524 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=6 draft=7 accepted=3 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=484 rs_after=1 rem_after=480 safe=1
+0.04.979.449 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=7 draft=7 accepted=2 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=480 rs_after=1 rem_after=477 safe=1
+0.05.059.683 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=8 draft=7 accepted=7 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=477 rs_after=1 rem_after=469 safe=1
+0.05.138.302 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=9 draft=7 accepted=7 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=469 rs_after=1 rem_after=461 safe=1
+0.05.222.771 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=10 draft=7 accepted=7 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=461 rs_after=1 rem_after=453 safe=1
+0.05.307.483 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=11 draft=7 accepted=7 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=453 rs_after=1 rem_after=445 safe=1
+0.05.387.070 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=12 draft=7 accepted=7 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=445 rs_after=1 rem_after=437 safe=1
+0.05.454.890 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=13 draft=7 accepted=2 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=437 rs_after=1 rem_after=434 safe=1
+0.05.530.255 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=14 draft=7 accepted=5 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=434 rs_after=1 rem_after=428 safe=1
+0.05.609.075 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=15 draft=7 accepted=7 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=428 rs_after=1 rem_after=420 safe=1
+0.05.687.401 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=16 draft=7 accepted=7 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=420 rs_after=1 rem_after=412 safe=1
+0.05.765.881 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=17 draft=7 accepted=7 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=412 rs_after=1 rem_after=404 safe=1
+0.05.844.181 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=18 draft=7 accepted=7 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=404 rs_after=1 rem_after=396 safe=1
+0.05.914.907 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=19 draft=7 accepted=3 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=396 rs_after=1 rem_after=392 safe=1
+0.05.979.902 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=20 draft=7 accepted=0 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=392 rs_after=1 rem_after=391 safe=1
+0.06.049.264 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=21 draft=7 accepted=1 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=391 rs_after=1 rem_after=389 safe=1
+0.06.116.402 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=22 draft=7 accepted=0 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=389 rs_after=1 rem_after=388 safe=1
+0.06.185.271 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=23 draft=7 accepted=1 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=388 rs_after=1 rem_after=386 safe=1
+0.06.262.147 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=24 draft=7 accepted=5 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=386 rs_after=1 rem_after=380 safe=1
+0.06.332.726 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=25 draft=7 accepted=3 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=380 rs_after=1 rem_after=376 safe=1
+0.06.401.417 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=26 draft=7 accepted=2 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=376 rs_after=1 rem_after=373 safe=1
+0.06.471.513 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=27 draft=7 accepted=2 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=373 rs_after=1 rem_after=370 safe=1
+0.06.537.611 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=28 draft=7 accepted=0 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=370 rs_after=1 rem_after=369 safe=1
+0.06.605.043 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=29 draft=7 accepted=0 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=369 rs_after=1 rem_after=368 safe=1
+0.06.675.162 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=30 draft=7 accepted=1 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=368 rs_after=1 rem_after=366 safe=1
+0.06.741.349 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=31 draft=7 accepted=0 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=366 rs_after=1 rem_after=365 safe=1
+0.06.815.143 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=32 draft=7 accepted=3 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=365 rs_after=1 rem_after=361 safe=1
+0.06.888.573 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=33 draft=7 accepted=4 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=361 rs_after=1 rem_after=356 safe=1
+0.06.956.317 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=34 draft=7 accepted=1 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=356 rs_after=1 rem_after=354 safe=1
+0.07.036.064 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=35 draft=7 accepted=7 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=354 rs_after=1 rem_after=346 safe=1
+0.07.104.635 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=36 draft=7 accepted=2 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=346 rs_after=1 rem_after=343 safe=1
+0.07.179.777 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=37 draft=7 accepted=4 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=343 rs_after=1 rem_after=338 safe=1
+0.07.244.374 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=38 draft=7 accepted=0 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=338 rs_after=1 rem_after=337 safe=1
+0.07.313.287 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=39 draft=7 accepted=1 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=337 rs_after=1 rem_after=335 safe=1
+0.07.380.861 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=40 draft=7 accepted=1 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=335 rs_after=1 rem_after=333 safe=1
+0.07.448.993 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=41 draft=7 accepted=1 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=333 rs_after=1 rem_after=331 safe=1
+0.07.449.181 I slot print_timing: id  0 | task 0 | n_gen =    180, tg =  59.56 t/s, tg_3s =  59.89 t/s
+0.07.519.657 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=42 draft=7 accepted=2 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=331 rs_after=1 rem_after=328 safe=1
+0.07.587.378 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=43 draft=7 accepted=1 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=328 rs_after=1 rem_after=326 safe=1
+0.07.656.517 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=44 draft=7 accepted=1 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=326 rs_after=1 rem_after=324 safe=1
+0.07.737.335 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=45 draft=7 accepted=7 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=324 rs_after=1 rem_after=316 safe=1
+0.07.809.971 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=46 draft=7 accepted=4 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=316 rs_after=1 rem_after=311 safe=1
+0.07.879.558 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=47 draft=7 accepted=2 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=311 rs_after=1 rem_after=308 safe=1
+0.07.950.422 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=48 draft=7 accepted=2 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=308 rs_after=1 rem_after=305 safe=1
+0.08.016.166 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=49 draft=7 accepted=0 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=305 rs_after=1 rem_after=304 safe=1
+0.08.086.827 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=50 draft=7 accepted=2 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=304 rs_after=1 rem_after=301 safe=1
+0.08.166.046 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=51 draft=7 accepted=6 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=301 rs_after=1 rem_after=294 safe=1
+0.08.236.569 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=52 draft=7 accepted=3 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=294 rs_after=1 rem_after=290 safe=1
+0.08.311.460 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=53 draft=7 accepted=5 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=290 rs_after=1 rem_after=284 safe=1
+0.08.382.194 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=54 draft=7 accepted=3 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=284 rs_after=1 rem_after=280 safe=1
+0.08.449.761 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=55 draft=7 accepted=1 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=280 rs_after=1 rem_after=278 safe=1
+0.08.518.021 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=56 draft=7 accepted=1 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=278 rs_after=1 rem_after=276 safe=1
+0.08.592.577 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=57 draft=7 accepted=4 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=276 rs_after=1 rem_after=271 safe=1
+0.08.665.578 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=58 draft=7 accepted=4 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=271 rs_after=1 rem_after=266 safe=1
+0.08.733.157 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=59 draft=7 accepted=1 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=266 rs_after=1 rem_after=264 safe=1
+0.08.805.340 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=60 draft=7 accepted=3 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=264 rs_after=1 rem_after=260 safe=1
+0.08.871.767 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=61 draft=7 accepted=0 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=260 rs_after=1 rem_after=259 safe=1
+0.08.947.182 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=62 draft=7 accepted=4 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=259 rs_after=1 rem_after=254 safe=1
+0.09.019.046 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=63 draft=7 accepted=3 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=254 rs_after=1 rem_after=250 safe=1
+0.09.097.410 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=64 draft=7 accepted=6 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=250 rs_after=1 rem_after=243 safe=1
+0.09.163.811 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=65 draft=7 accepted=1 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=243 rs_after=1 rem_after=241 safe=1
+0.09.233.178 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=66 draft=7 accepted=1 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=241 rs_after=1 rem_after=239 safe=1
+0.09.307.616 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=67 draft=7 accepted=4 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=239 rs_after=1 rem_after=234 safe=1
+0.09.381.746 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=68 draft=7 accepted=4 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=234 rs_after=1 rem_after=229 safe=1
+0.09.461.000 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=69 draft=7 accepted=7 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=229 rs_after=1 rem_after=221 safe=1
+0.09.530.967 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=70 draft=7 accepted=3 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=221 rs_after=1 rem_after=217 safe=1
+0.09.598.360 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=71 draft=7 accepted=1 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=217 rs_after=1 rem_after=215 safe=1
+0.09.664.351 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=72 draft=7 accepted=0 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=215 rs_after=1 rem_after=214 safe=1
+0.09.735.411 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=73 draft=7 accepted=2 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=214 rs_after=1 rem_after=211 safe=1
+0.09.802.838 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=74 draft=7 accepted=1 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=211 rs_after=1 rem_after=209 safe=1
+0.09.877.818 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=75 draft=7 accepted=4 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=209 rs_after=1 rem_after=204 safe=1
+0.09.963.061 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=76 draft=7 accepted=7 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=204 rs_after=1 rem_after=196 safe=1
+0.10.033.093 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=77 draft=7 accepted=0 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=196 rs_after=1 rem_after=195 safe=1
+0.10.099.821 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=78 draft=7 accepted=0 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=195 rs_after=1 rem_after=194 safe=1
+0.10.170.555 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=79 draft=7 accepted=1 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=194 rs_after=1 rem_after=192 safe=1
+0.10.239.089 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=80 draft=7 accepted=1 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=192 rs_after=1 rem_after=190 safe=1
+0.10.313.801 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=81 draft=7 accepted=4 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=190 rs_after=1 rem_after=185 safe=1
+0.10.391.097 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=82 draft=7 accepted=6 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=185 rs_after=1 rem_after=178 safe=1
+0.10.459.646 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=83 draft=7 accepted=2 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=178 rs_after=1 rem_after=175 safe=1
+0.10.459.832 I slot print_timing: id  0 | task 0 | n_gen =    336, tg =  55.69 t/s, tg_3s =  51.82 t/s
+0.10.525.332 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=84 draft=7 accepted=0 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=175 rs_after=1 rem_after=174 safe=1
+0.10.596.015 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=85 draft=7 accepted=2 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=174 rs_after=1 rem_after=171 safe=1
+0.10.661.802 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=86 draft=7 accepted=0 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=171 rs_after=1 rem_after=170 safe=1
+0.10.731.414 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=87 draft=7 accepted=1 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=170 rs_after=1 rem_after=168 safe=1
+0.10.812.814 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=88 draft=7 accepted=7 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=168 rs_after=1 rem_after=160 safe=1
+0.10.886.239 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=89 draft=7 accepted=4 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=160 rs_after=1 rem_after=155 safe=1
+0.10.954.187 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=90 draft=7 accepted=1 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=155 rs_after=1 rem_after=153 safe=1
+0.11.020.041 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=91 draft=7 accepted=0 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=153 rs_after=1 rem_after=152 safe=1
+0.11.091.718 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=92 draft=7 accepted=2 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=152 rs_after=1 rem_after=149 safe=1
+0.11.159.244 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=93 draft=7 accepted=1 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=149 rs_after=1 rem_after=147 safe=1
+0.11.228.621 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=94 draft=7 accepted=1 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=147 rs_after=1 rem_after=145 safe=1
+0.11.297.357 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=95 draft=7 accepted=1 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=145 rs_after=1 rem_after=143 safe=1
+0.11.363.776 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=96 draft=7 accepted=0 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=143 rs_after=1 rem_after=142 safe=1
+0.11.431.000 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=97 draft=7 accepted=0 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=142 rs_after=1 rem_after=141 safe=1
+0.11.502.356 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=98 draft=7 accepted=2 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=141 rs_after=1 rem_after=138 safe=1
+0.11.568.905 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=99 draft=7 accepted=0 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=138 rs_after=1 rem_after=137 safe=1
+0.11.635.394 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=100 draft=7 accepted=0 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=137 rs_after=1 rem_after=136 safe=1
+0.11.706.901 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=101 draft=7 accepted=2 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=136 rs_after=1 rem_after=133 safe=1
+0.11.781.162 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=102 draft=7 accepted=3 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=133 rs_after=1 rem_after=129 safe=1
+0.11.847.590 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=103 draft=7 accepted=0 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=129 rs_after=1 rem_after=128 safe=1
+0.11.918.713 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=104 draft=7 accepted=2 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=128 rs_after=1 rem_after=125 safe=1
+0.11.987.237 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=105 draft=7 accepted=1 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=125 rs_after=1 rem_after=123 safe=1
+0.12.058.370 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=106 draft=7 accepted=2 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=123 rs_after=1 rem_after=120 safe=1
+0.12.128.763 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=107 draft=7 accepted=2 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=120 rs_after=1 rem_after=117 safe=1
+0.12.209.091 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=108 draft=7 accepted=7 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=117 rs_after=1 rem_after=109 safe=1
+0.12.287.763 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=109 draft=7 accepted=7 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=109 rs_after=1 rem_after=101 safe=1
+0.12.362.082 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=110 draft=7 accepted=5 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=101 rs_after=1 rem_after=95 safe=1
+0.12.426.607 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=111 draft=7 accepted=0 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=95 rs_after=1 rem_after=94 safe=1
+0.12.495.944 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=112 draft=7 accepted=1 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=94 rs_after=1 rem_after=92 safe=1
+0.12.568.109 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=113 draft=7 accepted=3 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=92 rs_after=1 rem_after=88 safe=1
+0.12.643.971 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=114 draft=7 accepted=5 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=88 rs_after=1 rem_after=82 safe=1
+0.12.709.526 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=115 draft=7 accepted=0 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=82 rs_after=1 rem_after=81 safe=1
+0.12.781.226 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=116 draft=7 accepted=2 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=81 rs_after=1 rem_after=78 safe=1
+0.12.862.575 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=117 draft=7 accepted=7 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=1 rem_before=78 rs_after=4 rem_after=78 safe=1
+0.12.937.279 I slot   operator(): id  0 | task 0 | HYBRID_DIAG round=118 draft=7 accepted=5 g=0 lazy=0 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=78 rs_after=4 rem_after=78 safe=1
+0.12.937.467 I slot print_timing: id  0 | task 0 | prompt eval time =     549.56 ms /   203 tokens (    2.71 ms per token,   369.38 tokens per second)
+0.12.937.473 I slot print_timing: id  0 | task 0 |        eval time =    8493.55 ms /   443 tokens (   19.22 ms per token,    52.04 tokens per second)
+0.12.937.474 I slot print_timing: id  0 | task 0 |       total time =    9043.12 ms /   646 tokens
+0.12.937.478 I slot print_timing: id  0 | task 0 |    graphs reused =        115
+0.12.937.483 I slot print_timing: id  0 | task 0 | draft acceptance = 0.39709 (  328 accepted /   826 generated), mean len =  3.78
+0.12.937.487 I slot print_timing: id  0 | task 0 |  round cost by draft width = (w7: 118 rounds, 3.78 tok/round, 71.98 ms/round (draft 10.43, verify 52.64, other 8.91), 52.5 tok/s)
+0.12.937.559 I slot      release: id  0 | task 0 | stop processing: n_tokens = 649, truncated = 0
+0.12.973.114 I slot get_availabl: id  0 | task -1 | selected slot by LRU, t_last = 10076458554
+0.13.220.054 I srv        update: prompt cache: 1 prompts, 464.9 MiB (limit 8192.0 MiB, 131072 tokens, 131072 est)
+0.13.220.756 I slot launch_slot_: id  0 | task 122 | processing task, is_child = 0
+0.13.234.548 I slot   operator(): id  0 | task 122 | draft vocab hot: 31/2048 slots replaced, 113 candidates
+0.17.929.741 I slot print_timing: id  0 | task 122 | prompt processing, n_tokens =   4096, progress = 0.49, t =   3.97 s / 1031.83 tokens per second
+0.21.630.036 I slot print_timing: id  0 | task 122 | prompt processing, n_tokens =   7275, progress = 0.88, t =   8.18 s / 889.71 tokens per second
+0.22.859.900 I slot print_timing: id  0 | task 122 | prompt processing, n_tokens =   8215, progress = 0.99, t =   9.18 s / 894.87 tokens per second
+0.23.087.775 I slot print_timing: id  0 | task 122 | prompt processing, n_tokens =   8299, progress = 1.00, t =   9.81 s / 845.73 tokens per second
+0.23.300.902 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=1 draft=7 accepted=3 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=510 rs_after=1 rem_after=506 safe=1
+0.23.375.731 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=2 draft=7 accepted=1 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=506 rs_after=1 rem_after=504 safe=1
+0.23.449.445 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=3 draft=7 accepted=2 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=504 rs_after=1 rem_after=501 safe=1
+0.23.521.414 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=4 draft=7 accepted=2 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=501 rs_after=1 rem_after=498 safe=1
+0.23.592.423 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=5 draft=7 accepted=1 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=498 rs_after=1 rem_after=496 safe=1
+0.23.671.469 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=6 draft=7 accepted=5 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=496 rs_after=1 rem_after=490 safe=1
+0.23.750.363 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=7 draft=7 accepted=6 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=490 rs_after=1 rem_after=483 safe=1
+0.23.820.695 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=8 draft=7 accepted=2 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=483 rs_after=1 rem_after=480 safe=1
+0.23.891.250 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=9 draft=7 accepted=1 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=480 rs_after=1 rem_after=478 safe=1
+0.23.961.125 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=10 draft=7 accepted=1 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=478 rs_after=1 rem_after=476 safe=1
+0.24.034.144 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=11 draft=7 accepted=2 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=476 rs_after=1 rem_after=473 safe=1
+0.24.103.466 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=12 draft=7 accepted=0 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=473 rs_after=1 rem_after=472 safe=1
+0.24.178.043 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=13 draft=7 accepted=3 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=472 rs_after=1 rem_after=468 safe=1
+0.24.255.899 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=14 draft=7 accepted=5 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=468 rs_after=1 rem_after=462 safe=1
+0.24.321.929 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=15 draft=7 accepted=0 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=462 rs_after=1 rem_after=461 safe=1
+0.24.399.590 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=16 draft=7 accepted=4 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=461 rs_after=1 rem_after=456 safe=1
+0.24.468.914 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=17 draft=7 accepted=1 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=456 rs_after=1 rem_after=454 safe=1
+0.24.536.618 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=18 draft=7 accepted=0 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=454 rs_after=1 rem_after=453 safe=1
+0.24.615.447 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=19 draft=7 accepted=4 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=453 rs_after=1 rem_after=448 safe=1
+0.24.696.798 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=20 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=448 rs_after=1 rem_after=440 safe=1
+0.24.768.566 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=21 draft=7 accepted=3 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=440 rs_after=1 rem_after=436 safe=1
+0.24.835.927 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=22 draft=7 accepted=0 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=436 rs_after=1 rem_after=435 safe=1
+0.24.915.285 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=23 draft=7 accepted=5 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=435 rs_after=1 rem_after=429 safe=1
+0.24.981.830 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=24 draft=7 accepted=0 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=429 rs_after=1 rem_after=428 safe=1
+0.25.054.957 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=25 draft=7 accepted=2 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=428 rs_after=1 rem_after=425 safe=1
+0.25.126.391 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=26 draft=7 accepted=2 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=425 rs_after=1 rem_after=422 safe=1
+0.25.195.635 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=27 draft=7 accepted=1 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=422 rs_after=1 rem_after=420 safe=1
+0.25.266.066 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=28 draft=7 accepted=1 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=420 rs_after=1 rem_after=418 safe=1
+0.25.343.784 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=29 draft=7 accepted=5 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=418 rs_after=1 rem_after=412 safe=1
+0.25.423.031 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=30 draft=7 accepted=6 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=412 rs_after=1 rem_after=405 safe=1
+0.25.493.655 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=31 draft=7 accepted=2 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=405 rs_after=1 rem_after=402 safe=1
+0.25.563.889 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=32 draft=7 accepted=1 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=402 rs_after=1 rem_after=400 safe=1
+0.25.634.441 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=33 draft=7 accepted=0 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=400 rs_after=1 rem_after=399 safe=1
+0.25.706.724 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=34 draft=7 accepted=1 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=399 rs_after=1 rem_after=397 safe=1
+0.25.777.018 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=35 draft=7 accepted=1 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=397 rs_after=1 rem_after=395 safe=1
+0.25.861.975 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=36 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=395 rs_after=1 rem_after=387 safe=1
+0.25.934.334 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=37 draft=7 accepted=3 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=387 rs_after=1 rem_after=383 safe=1
+0.26.001.143 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=38 draft=7 accepted=0 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=383 rs_after=1 rem_after=382 safe=1
+0.26.077.740 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=39 draft=7 accepted=4 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=382 rs_after=1 rem_after=377 safe=1
+0.26.153.164 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=40 draft=7 accepted=4 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=377 rs_after=1 rem_after=372 safe=1
+0.26.227.412 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=41 draft=7 accepted=1 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=372 rs_after=1 rem_after=370 safe=1
+0.26.227.615 I slot print_timing: id  0 | task 122 | n_gen =    141, tg =  46.57 t/s, tg_3s =  46.90 t/s
+0.26.313.509 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=42 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=370 rs_after=1 rem_after=362 safe=1
+0.26.381.748 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=43 draft=7 accepted=1 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=362 rs_after=1 rem_after=360 safe=1
+0.26.454.869 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=44 draft=7 accepted=2 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=360 rs_after=1 rem_after=357 safe=1
+0.26.527.494 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=45 draft=7 accepted=2 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=357 rs_after=1 rem_after=354 safe=1
+0.26.606.596 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=46 draft=7 accepted=5 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=354 rs_after=1 rem_after=348 safe=1
+0.26.689.085 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=47 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=348 rs_after=1 rem_after=340 safe=1
+0.26.770.017 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=48 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=340 rs_after=1 rem_after=332 safe=1
+0.26.840.421 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=49 draft=7 accepted=2 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=332 rs_after=1 rem_after=329 safe=1
+0.26.910.934 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=50 draft=7 accepted=1 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=329 rs_after=1 rem_after=327 safe=1
+0.26.980.810 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=51 draft=7 accepted=1 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=327 rs_after=1 rem_after=325 safe=1
+0.27.061.999 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=52 draft=7 accepted=6 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=325 rs_after=1 rem_after=318 safe=1
+0.27.134.937 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=53 draft=7 accepted=3 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=318 rs_after=1 rem_after=314 safe=1
+0.27.214.245 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=54 draft=7 accepted=6 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=314 rs_after=1 rem_after=307 safe=1
+0.27.284.364 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=55 draft=7 accepted=2 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=307 rs_after=1 rem_after=304 safe=1
+0.27.358.565 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=56 draft=7 accepted=3 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=304 rs_after=1 rem_after=300 safe=1
+0.27.428.177 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=57 draft=7 accepted=1 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=300 rs_after=1 rem_after=298 safe=1
+0.27.510.398 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=58 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=298 rs_after=1 rem_after=290 safe=1
+0.27.592.120 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=59 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=0 rb=1 rs_before=1 rem_before=290 rs_after=4 rem_after=286 safe=0
+0.27.662.723 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=60 draft=7 accepted=2 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=286 rs_after=4 rem_after=286 safe=0
+0.27.746.161 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=61 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=286 rs_after=4 rem_after=286 safe=0
+0.27.822.635 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=62 draft=7 accepted=5 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=286 rs_after=4 rem_after=286 safe=0
+0.27.904.060 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=63 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=286 rs_after=4 rem_after=286 safe=0
+0.28.024.136 I slot   operator(): id  0 | task 122 | HYBRID_DIAG round=64 draft=7 accepted=4 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=286 rs_after=4 rem_after=286 safe=0
+0.28.024.398 I slot print_timing: id  0 | task 122 | prompt eval time =   10000.67 ms /  8303 tokens (    1.20 ms per token,   830.24 tokens per second)
+0.28.024.406 I slot print_timing: id  0 | task 122 |        eval time =    4802.75 ms /   257 tokens (   18.76 ms per token,    53.30 tokens per second)
+0.28.024.406 I slot print_timing: id  0 | task 122 |       total time =   14803.42 ms /  8560 tokens
+0.28.024.407 I slot print_timing: id  0 | task 122 |    graphs reused =        177
+0.28.024.413 I slot print_timing: id  0 | task 122 | draft acceptance = 0.43304 (  194 accepted /   448 generated), mean len =  4.03
+0.28.024.417 I slot print_timing: id  0 | task 122 |  round cost by draft width = (w7: 64 rounds, 4.03 tok/round, 75.04 ms/round (draft 10.87, verify 53.89, other 10.29), 53.7 tok/s)
+0.28.024.858 I slot      release: id  0 | task 122 | stop processing: n_tokens = 8561, truncated = 0
+0.28.062.523 I slot get_availabl: id  0 | task -1 | selected slot by LCP similarity, f_sim_best = 0.976 (> 0.100 thold), f_keep = 0.970
+0.28.063.168 I slot launch_slot_: id  0 | task 192 | processing task, is_child = 0
+0.28.084.802 I slot   operator(): id  0 | task 192 | draft vocab hot: 1/2048 slots replaced, 119 candidates
+0.28.660.624 I slot   operator(): id  0 | task 192 | HYBRID_DIAG round=1 draft=7 accepted=1 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=510 rs_after=1 rem_after=508 safe=1
+0.28.737.509 I slot   operator(): id  0 | task 192 | HYBRID_DIAG round=2 draft=7 accepted=4 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=508 rs_after=1 rem_after=503 safe=1
+0.28.806.570 I slot   operator(): id  0 | task 192 | HYBRID_DIAG round=3 draft=7 accepted=1 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=503 rs_after=1 rem_after=501 safe=1
+0.28.888.646 I slot   operator(): id  0 | task 192 | HYBRID_DIAG round=4 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=501 rs_after=1 rem_after=493 safe=1
+0.28.969.810 I slot   operator(): id  0 | task 192 | HYBRID_DIAG round=5 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=0 rb=1 rs_before=1 rem_before=493 rs_after=4 rem_after=491 safe=0
+0.29.050.184 I slot   operator(): id  0 | task 192 | HYBRID_DIAG round=6 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=491 rs_after=4 rem_after=491 safe=0
+0.29.130.343 I slot   operator(): id  0 | task 192 | HYBRID_DIAG round=7 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=491 rs_after=4 rem_after=491 safe=0
+0.29.210.483 I slot   operator(): id  0 | task 192 | HYBRID_DIAG round=8 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=491 rs_after=4 rem_after=491 safe=0
+0.29.310.722 I slot   operator(): id  0 | task 192 | HYBRID_DIAG round=9 draft=7 accepted=0 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=491 rs_after=4 rem_after=491 safe=0
+0.29.310.990 I slot print_timing: id  0 | task 192 | prompt eval time =     525.62 ms /   209 tokens (    2.51 ms per token,   397.63 tokens per second)
+0.29.310.996 I slot print_timing: id  0 | task 192 |        eval time =     721.99 ms /    51 tokens (   14.44 ms per token,    69.25 tokens per second)
+0.29.310.997 I slot print_timing: id  0 | task 192 |       total time =    1247.61 ms /   260 tokens
+0.29.310.998 I slot print_timing: id  0 | task 192 |    graphs reused =        185
+0.29.311.003 I slot print_timing: id  0 | task 192 | draft acceptance = 0.65079 (   41 accepted /    63 generated), mean len =  5.56
+0.29.311.007 I slot print_timing: id  0 | task 192 |  round cost by draft width = (w7: 9 rounds, 5.56 tok/round, 80.22 ms/round (draft 10.83, verify 52.95, other 16.45), 69.3 tok/s)
+0.29.311.472 I slot      release: id  0 | task 192 | stop processing: n_tokens = 8558, truncated = 0
+0.29.351.222 I slot get_availabl: id  0 | task -1 | selected slot by LCP similarity, f_sim_best = 0.978 (> 0.100 thold), f_keep = 0.994
+0.29.351.863 I slot launch_slot_: id  0 | task 204 | processing task, is_child = 0
+0.29.373.646 I slot   operator(): id  0 | task 204 | draft vocab hot: 1/2048 slots replaced, 123 candidates
+0.29.924.385 I slot   operator(): id  0 | task 204 | HYBRID_DIAG round=1 draft=7 accepted=0 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=510 rs_after=1 rem_after=509 safe=1
+0.30.005.100 I slot   operator(): id  0 | task 204 | HYBRID_DIAG round=2 draft=7 accepted=6 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=509 rs_after=1 rem_after=502 safe=1
+0.30.081.515 I slot   operator(): id  0 | task 204 | HYBRID_DIAG round=3 draft=7 accepted=2 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=502 rs_after=1 rem_after=499 safe=1
+0.30.158.534 I slot   operator(): id  0 | task 204 | HYBRID_DIAG round=4 draft=7 accepted=2 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=499 rs_after=1 rem_after=496 safe=1
+0.30.241.275 I slot   operator(): id  0 | task 204 | HYBRID_DIAG round=5 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=496 rs_after=1 rem_after=488 safe=1
+0.30.319.470 I slot   operator(): id  0 | task 204 | HYBRID_DIAG round=6 draft=7 accepted=6 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=488 rs_after=1 rem_after=481 safe=1
+0.30.400.223 I slot   operator(): id  0 | task 204 | HYBRID_DIAG round=7 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=481 rs_after=1 rem_after=473 safe=1
+0.30.480.961 I slot   operator(): id  0 | task 204 | HYBRID_DIAG round=8 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=0 rb=1 rs_before=1 rem_before=473 rs_after=4 rem_after=473 safe=0
+0.30.561.564 I slot   operator(): id  0 | task 204 | HYBRID_DIAG round=9 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=473 rs_after=4 rem_after=473 safe=0
+0.30.643.597 I slot   operator(): id  0 | task 204 | HYBRID_DIAG round=10 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=473 rs_after=4 rem_after=473 safe=0
+0.30.726.033 I slot   operator(): id  0 | task 204 | HYBRID_DIAG round=11 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=473 rs_after=4 rem_after=473 safe=0
+0.30.803.429 I slot   operator(): id  0 | task 204 | HYBRID_DIAG round=12 draft=7 accepted=5 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=473 rs_after=4 rem_after=473 safe=0
+0.30.884.322 I slot   operator(): id  0 | task 204 | HYBRID_DIAG round=13 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=473 rs_after=4 rem_after=473 safe=0
+0.30.964.802 I slot   operator(): id  0 | task 204 | HYBRID_DIAG round=14 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=473 rs_after=4 rem_after=473 safe=0
+0.31.045.491 I slot   operator(): id  0 | task 204 | HYBRID_DIAG round=15 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=473 rs_after=4 rem_after=473 safe=0
+0.31.117.606 I slot   operator(): id  0 | task 204 | HYBRID_DIAG round=16 draft=7 accepted=3 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=473 rs_after=4 rem_after=473 safe=0
+0.31.198.362 I slot   operator(): id  0 | task 204 | HYBRID_DIAG round=17 draft=7 accepted=6 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=473 rs_after=4 rem_after=473 safe=0
+0.31.274.957 I slot   operator(): id  0 | task 204 | HYBRID_DIAG round=18 draft=7 accepted=5 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=473 rs_after=4 rem_after=473 safe=0
+0.31.349.904 I slot   operator(): id  0 | task 204 | HYBRID_DIAG round=19 draft=7 accepted=4 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=473 rs_after=4 rem_after=473 safe=0
+0.31.429.331 I slot   operator(): id  0 | task 204 | HYBRID_DIAG round=20 draft=7 accepted=6 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=473 rs_after=4 rem_after=473 safe=0
+0.31.508.127 I slot   operator(): id  0 | task 204 | HYBRID_DIAG round=21 draft=7 accepted=6 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=473 rs_after=4 rem_after=473 safe=0
+0.31.588.731 I slot   operator(): id  0 | task 204 | HYBRID_DIAG round=22 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=473 rs_after=4 rem_after=473 safe=0
+0.31.705.310 I slot   operator(): id  0 | task 204 | HYBRID_DIAG round=23 draft=7 accepted=4 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=473 rs_after=4 rem_after=473 safe=0
+0.31.705.590 I slot print_timing: id  0 | task 204 | prompt eval time =     502.01 ms /   191 tokens (    2.63 ms per token,   380.47 tokens per second)
+0.31.705.598 I slot print_timing: id  0 | task 204 |        eval time =    1851.49 ms /   147 tokens (   12.68 ms per token,    78.86 tokens per second)
+0.31.705.598 I slot print_timing: id  0 | task 204 |       total time =    2353.50 ms /   338 tokens
+0.31.705.600 I slot print_timing: id  0 | task 204 |    graphs reused =        206
+0.31.705.605 I slot print_timing: id  0 | task 204 | draft acceptance = 0.77640 (  125 accepted /   161 generated), mean len =  6.43
+0.31.705.610 I slot print_timing: id  0 | task 204 |  round cost by draft width = (w7: 23 rounds, 6.43 tok/round, 80.50 ms/round (draft 10.85, verify 53.22, other 16.43), 79.9 tok/s)
+0.31.706.068 I slot      release: id  0 | task 204 | stop processing: n_tokens = 8843, truncated = 0
+0.31.747.775 I slot get_availabl: id  0 | task -1 | selected slot by LCP similarity, f_sim_best = 0.981 (> 0.100 thold), f_keep = 0.983
+0.31.748.433 I slot launch_slot_: id  0 | task 230 | processing task, is_child = 0
+0.31.770.141 I slot   operator(): id  0 | task 230 | draft vocab hot: 0/2048 slots replaced, 123 candidates
+0.32.309.134 I slot   operator(): id  0 | task 230 | HYBRID_DIAG round=1 draft=7 accepted=2 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=510 rs_after=1 rem_after=507 safe=1
+0.32.384.574 I slot   operator(): id  0 | task 230 | HYBRID_DIAG round=2 draft=7 accepted=4 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=507 rs_after=1 rem_after=502 safe=1
+0.32.467.726 I slot   operator(): id  0 | task 230 | HYBRID_DIAG round=3 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=0 rb=1 rs_before=1 rem_before=502 rs_after=4 rem_after=499 safe=0
+0.32.547.305 I slot   operator(): id  0 | task 230 | HYBRID_DIAG round=4 draft=7 accepted=6 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=499 rs_after=4 rem_after=499 safe=0
+0.32.628.333 I slot   operator(): id  0 | task 230 | HYBRID_DIAG round=5 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=499 rs_after=4 rem_after=499 safe=0
+0.32.709.276 I slot   operator(): id  0 | task 230 | HYBRID_DIAG round=6 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=499 rs_after=4 rem_after=499 safe=0
+0.32.790.037 I slot   operator(): id  0 | task 230 | HYBRID_DIAG round=7 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=499 rs_after=4 rem_after=499 safe=0
+0.32.870.879 I slot   operator(): id  0 | task 230 | HYBRID_DIAG round=8 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=499 rs_after=4 rem_after=499 safe=0
+0.32.951.552 I slot   operator(): id  0 | task 230 | HYBRID_DIAG round=9 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=499 rs_after=4 rem_after=499 safe=0
+0.33.031.839 I slot   operator(): id  0 | task 230 | HYBRID_DIAG round=10 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=499 rs_after=4 rem_after=499 safe=0
+0.33.112.250 I slot   operator(): id  0 | task 230 | HYBRID_DIAG round=11 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=499 rs_after=4 rem_after=499 safe=0
+0.33.192.732 I slot   operator(): id  0 | task 230 | HYBRID_DIAG round=12 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=499 rs_after=4 rem_after=499 safe=0
+0.33.272.983 I slot   operator(): id  0 | task 230 | HYBRID_DIAG round=13 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=499 rs_after=4 rem_after=499 safe=0
+0.33.359.060 I slot   operator(): id  0 | task 230 | HYBRID_DIAG round=14 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=499 rs_after=4 rem_after=499 safe=0
+0.33.479.298 I slot   operator(): id  0 | task 230 | HYBRID_DIAG round=15 draft=7 accepted=5 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=499 rs_after=4 rem_after=499 safe=0
+0.33.479.584 I slot print_timing: id  0 | task 230 | prompt eval time =     486.54 ms /   170 tokens (    2.86 ms per token,   349.40 tokens per second)
+0.33.479.592 I slot print_timing: id  0 | task 230 |        eval time =    1244.38 ms /   108 tokens (   11.63 ms per token,    85.99 tokens per second)
+0.33.479.593 I slot print_timing: id  0 | task 230 |       total time =    1730.92 ms /   278 tokens
+0.33.479.594 I slot print_timing: id  0 | task 230 |    graphs reused =        219
+0.33.479.600 I slot print_timing: id  0 | task 230 | draft acceptance = 0.89524 (   94 accepted /   105 generated), mean len =  7.27
+0.33.479.604 I slot print_timing: id  0 | task 230 |  round cost by draft width = (w7: 15 rounds, 7.27 tok/round, 82.96 ms/round (draft 10.84, verify 53.17, other 18.95), 87.6 tok/s)
+0.33.480.073 I slot      release: id  0 | task 230 | stop processing: n_tokens = 8970, truncated = 0
+0.33.523.865 I slot get_availabl: id  0 | task -1 | selected slot by LCP similarity, f_sim_best = 0.975 (> 0.100 thold), f_keep = 0.988
+0.33.524.542 I slot launch_slot_: id  0 | task 248 | processing task, is_child = 0
+0.33.547.126 I slot   operator(): id  0 | task 248 | draft vocab hot: 0/2048 slots replaced, 123 candidates
+0.34.153.463 I slot   operator(): id  0 | task 248 | HYBRID_DIAG round=1 draft=7 accepted=4 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=510 rs_after=1 rem_after=505 safe=1
+0.34.225.113 I slot   operator(): id  0 | task 248 | HYBRID_DIAG round=2 draft=7 accepted=2 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=505 rs_after=1 rem_after=502 safe=1
+0.34.292.863 I slot   operator(): id  0 | task 248 | HYBRID_DIAG round=3 draft=7 accepted=0 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=502 rs_after=1 rem_after=501 safe=1
+0.34.366.990 I slot   operator(): id  0 | task 248 | HYBRID_DIAG round=4 draft=7 accepted=2 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=501 rs_after=1 rem_after=498 safe=1
+0.34.450.129 I slot   operator(): id  0 | task 248 | HYBRID_DIAG round=5 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=498 rs_after=1 rem_after=490 safe=1
+0.34.523.516 I slot   operator(): id  0 | task 248 | HYBRID_DIAG round=6 draft=7 accepted=3 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=490 rs_after=1 rem_after=486 safe=1
+0.34.607.014 I slot   operator(): id  0 | task 248 | HYBRID_DIAG round=7 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=0 rb=1 rs_before=1 rem_before=486 rs_after=4 rem_after=485 safe=0
+0.34.688.311 I slot   operator(): id  0 | task 248 | HYBRID_DIAG round=8 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=485 rs_after=4 rem_after=485 safe=0
+0.34.769.562 I slot   operator(): id  0 | task 248 | HYBRID_DIAG round=9 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=485 rs_after=4 rem_after=485 safe=0
+0.34.887.114 I slot   operator(): id  0 | task 248 | HYBRID_DIAG round=10 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=485 rs_after=4 rem_after=485 safe=0
+0.34.887.384 I slot print_timing: id  0 | task 248 | prompt eval time =     550.55 ms /   229 tokens (    2.40 ms per token,   415.95 tokens per second)
+0.34.887.391 I slot print_timing: id  0 | task 248 |        eval time =     812.08 ms /    55 tokens (   15.04 ms per token,    66.50 tokens per second)
+0.34.887.392 I slot print_timing: id  0 | task 248 |       total time =    1362.63 ms /   284 tokens
+0.34.887.394 I slot print_timing: id  0 | task 248 |    graphs reused =        228
+0.34.887.399 I slot print_timing: id  0 | task 248 | draft acceptance = 0.65714 (   46 accepted /    70 generated), mean len =  5.60
+0.34.887.403 I slot print_timing: id  0 | task 248 |  round cost by draft width = (w7: 10 rounds, 5.60 tok/round, 81.21 ms/round (draft 10.88, verify 53.55, other 16.78), 69.0 tok/s)
+0.34.887.870 I slot      release: id  0 | task 248 | stop processing: n_tokens = 9142, truncated = 0
+0.34.933.133 I slot get_availabl: id  0 | task -1 | selected slot by LCP similarity, f_sim_best = 0.982 (> 0.100 thold), f_keep = 0.994
+0.34.933.802 I slot launch_slot_: id  0 | task 261 | processing task, is_child = 0
+0.34.956.142 I slot   operator(): id  0 | task 261 | draft vocab hot: 0/2048 slots replaced, 123 candidates
+0.35.496.463 I slot   operator(): id  0 | task 261 | HYBRID_DIAG round=1 draft=7 accepted=1 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=510 rs_after=1 rem_after=508 safe=1
+0.35.572.776 I slot   operator(): id  0 | task 261 | HYBRID_DIAG round=2 draft=7 accepted=1 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=508 rs_after=1 rem_after=506 safe=1
+0.35.654.639 I slot   operator(): id  0 | task 261 | HYBRID_DIAG round=3 draft=7 accepted=6 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=506 rs_after=1 rem_after=499 safe=1
+0.35.727.784 I slot   operator(): id  0 | task 261 | HYBRID_DIAG round=4 draft=7 accepted=3 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=499 rs_after=1 rem_after=495 safe=1
+0.35.807.735 I slot   operator(): id  0 | task 261 | HYBRID_DIAG round=5 draft=7 accepted=6 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=495 rs_after=1 rem_after=488 safe=1
+0.35.888.552 I slot   operator(): id  0 | task 261 | HYBRID_DIAG round=6 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=0 rb=1 rs_before=1 rem_before=488 rs_after=4 rem_after=485 safe=0
+0.35.969.572 I slot   operator(): id  0 | task 261 | HYBRID_DIAG round=7 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=485 rs_after=4 rem_after=485 safe=0
+0.36.050.218 I slot   operator(): id  0 | task 261 | HYBRID_DIAG round=8 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=485 rs_after=4 rem_after=485 safe=0
+0.36.130.613 I slot   operator(): id  0 | task 261 | HYBRID_DIAG round=9 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=485 rs_after=4 rem_after=485 safe=0
+0.36.237.473 I slot   operator(): id  0 | task 261 | HYBRID_DIAG round=10 draft=7 accepted=2 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=485 rs_after=4 rem_after=485 safe=0
+0.36.237.746 I slot print_timing: id  0 | task 261 | prompt eval time =     486.12 ms /   168 tokens (    2.89 ms per token,   345.60 tokens per second)
+0.36.237.751 I slot print_timing: id  0 | task 261 |        eval time =     817.60 ms /    56 tokens (   14.87 ms per token,    67.27 tokens per second)
+0.36.237.752 I slot print_timing: id  0 | task 261 |       total time =    1303.72 ms /   224 tokens
+0.36.237.753 I slot print_timing: id  0 | task 261 |    graphs reused =        237
+0.36.237.760 I slot print_timing: id  0 | task 261 | draft acceptance = 0.67143 (   47 accepted /    70 generated), mean len =  5.70
+0.36.237.764 I slot print_timing: id  0 | task 261 |  round cost by draft width = (w7: 10 rounds, 5.70 tok/round, 81.76 ms/round (draft 10.88, verify 54.03, other 16.85), 69.7 tok/s)
+0.36.238.235 I slot      release: id  0 | task 261 | stop processing: n_tokens = 9307, truncated = 0
+0.36.285.031 I slot get_availabl: id  0 | task -1 | selected slot by LCP similarity, f_sim_best = 0.975 (> 0.100 thold), f_keep = 0.994
+0.36.285.716 I slot launch_slot_: id  0 | task 274 | processing task, is_child = 0
+0.36.307.864 I slot   operator(): id  0 | task 274 | draft vocab hot: 0/2048 slots replaced, 124 candidates
+0.36.926.033 I slot   operator(): id  0 | task 274 | HYBRID_DIAG round=1 draft=7 accepted=6 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=510 rs_after=1 rem_after=503 safe=1
+0.36.996.882 I slot   operator(): id  0 | task 274 | HYBRID_DIAG round=2 draft=7 accepted=0 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=503 rs_after=1 rem_after=502 safe=1
+0.37.068.767 I slot   operator(): id  0 | task 274 | HYBRID_DIAG round=3 draft=7 accepted=1 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=502 rs_after=1 rem_after=500 safe=1
+0.37.145.206 I slot   operator(): id  0 | task 274 | HYBRID_DIAG round=4 draft=7 accepted=4 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=500 rs_after=1 rem_after=495 safe=1
+0.37.220.514 I slot   operator(): id  0 | task 274 | HYBRID_DIAG round=5 draft=7 accepted=4 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=495 rs_after=1 rem_after=490 safe=1
+0.37.290.134 I slot   operator(): id  0 | task 274 | HYBRID_DIAG round=6 draft=7 accepted=1 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=490 rs_after=1 rem_after=488 safe=1
+0.37.364.568 I slot   operator(): id  0 | task 274 | HYBRID_DIAG round=7 draft=7 accepted=3 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=488 rs_after=1 rem_after=484 safe=1
+0.37.431.718 I slot   operator(): id  0 | task 274 | HYBRID_DIAG round=8 draft=7 accepted=0 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=484 rs_after=1 rem_after=483 safe=1
+0.37.501.835 I slot   operator(): id  0 | task 274 | HYBRID_DIAG round=9 draft=7 accepted=0 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=483 rs_after=1 rem_after=482 safe=1
+0.37.579.455 I slot   operator(): id  0 | task 274 | HYBRID_DIAG round=10 draft=7 accepted=4 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=482 rs_after=1 rem_after=477 safe=1
+0.37.654.235 I slot   operator(): id  0 | task 274 | HYBRID_DIAG round=11 draft=7 accepted=3 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=477 rs_after=1 rem_after=473 safe=1
+0.37.729.386 I slot   operator(): id  0 | task 274 | HYBRID_DIAG round=12 draft=7 accepted=2 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=473 rs_after=1 rem_after=470 safe=1
+0.37.808.130 I slot   operator(): id  0 | task 274 | HYBRID_DIAG round=13 draft=7 accepted=5 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=470 rs_after=1 rem_after=464 safe=1
+0.37.879.210 I slot   operator(): id  0 | task 274 | HYBRID_DIAG round=14 draft=7 accepted=2 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=464 rs_after=1 rem_after=461 safe=1
+0.37.960.560 I slot   operator(): id  0 | task 274 | HYBRID_DIAG round=15 draft=7 accepted=6 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=461 rs_after=1 rem_after=454 safe=1
+0.38.041.275 I slot   operator(): id  0 | task 274 | HYBRID_DIAG round=16 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=454 rs_after=4 rem_after=448 safe=1
+0.38.107.605 I slot   operator(): id  0 | task 274 | HYBRID_DIAG round=17 draft=7 accepted=0 g=1 lazy=1 await_before=1 await_after=0 rb=1 rs_before=4 rem_before=448 rs_after=4 rem_after=448 safe=0
+0.38.183.092 I slot   operator(): id  0 | task 274 | HYBRID_DIAG round=18 draft=7 accepted=3 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=448 rs_after=4 rem_after=448 safe=0
+0.38.261.396 I slot   operator(): id  0 | task 274 | HYBRID_DIAG round=19 draft=7 accepted=5 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=448 rs_after=4 rem_after=448 safe=0
+0.38.336.994 I slot   operator(): id  0 | task 274 | HYBRID_DIAG round=20 draft=7 accepted=4 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=448 rs_after=4 rem_after=448 safe=0
+0.38.407.368 I slot   operator(): id  0 | task 274 | HYBRID_DIAG round=21 draft=7 accepted=1 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=448 rs_after=4 rem_after=448 safe=0
+0.38.491.090 I slot   operator(): id  0 | task 274 | HYBRID_DIAG round=22 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=448 rs_after=4 rem_after=448 safe=0
+0.38.572.064 I slot   operator(): id  0 | task 274 | HYBRID_DIAG round=23 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=448 rs_after=4 rem_after=448 safe=0
+0.38.645.118 I slot   operator(): id  0 | task 274 | HYBRID_DIAG round=24 draft=7 accepted=3 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=448 rs_after=4 rem_after=448 safe=0
+0.38.719.354 I slot   operator(): id  0 | task 274 | HYBRID_DIAG round=25 draft=7 accepted=2 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=448 rs_after=4 rem_after=448 safe=0
+0.38.792.088 I slot   operator(): id  0 | task 274 | HYBRID_DIAG round=26 draft=7 accepted=2 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=448 rs_after=4 rem_after=448 safe=0
+0.38.875.353 I slot   operator(): id  0 | task 274 | HYBRID_DIAG round=27 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=448 rs_after=4 rem_after=448 safe=0
+0.38.947.937 I slot   operator(): id  0 | task 274 | HYBRID_DIAG round=28 draft=7 accepted=3 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=448 rs_after=4 rem_after=448 safe=0
+0.39.029.517 I slot   operator(): id  0 | task 274 | HYBRID_DIAG round=29 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=448 rs_after=4 rem_after=448 safe=0
+0.39.097.809 I slot   operator(): id  0 | task 274 | HYBRID_DIAG round=30 draft=7 accepted=1 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=448 rs_after=4 rem_after=448 safe=0
+0.39.177.741 I slot   operator(): id  0 | task 274 | HYBRID_DIAG round=31 draft=7 accepted=5 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=448 rs_after=4 rem_after=448 safe=0
+0.39.259.195 I slot   operator(): id  0 | task 274 | HYBRID_DIAG round=32 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=448 rs_after=4 rem_after=448 safe=0
+0.39.335.654 I slot   operator(): id  0 | task 274 | HYBRID_DIAG round=33 draft=7 accepted=5 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=448 rs_after=4 rem_after=448 safe=0
+0.39.417.408 I slot   operator(): id  0 | task 274 | HYBRID_DIAG round=34 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=448 rs_after=4 rem_after=448 safe=0
+0.39.498.469 I slot   operator(): id  0 | task 274 | HYBRID_DIAG round=35 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=448 rs_after=4 rem_after=448 safe=0
+0.39.579.557 I slot   operator(): id  0 | task 274 | HYBRID_DIAG round=36 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=448 rs_after=4 rem_after=448 safe=0
+0.39.654.857 I slot   operator(): id  0 | task 274 | HYBRID_DIAG round=37 draft=7 accepted=4 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=448 rs_after=4 rem_after=448 safe=0
+0.39.737.359 I slot   operator(): id  0 | task 274 | HYBRID_DIAG round=38 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=448 rs_after=4 rem_after=448 safe=0
+0.39.848.176 I slot   operator(): id  0 | task 274 | HYBRID_DIAG round=39 draft=7 accepted=4 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=448 rs_after=4 rem_after=448 safe=0
+0.39.848.445 I slot print_timing: id  0 | task 274 | prompt eval time =     554.14 ms /   237 tokens (    2.34 ms per token,   427.69 tokens per second)
+0.39.848.453 I slot print_timing: id  0 | task 274 |        eval time =    3008.36 ms /   193 tokens (   15.67 ms per token,    63.82 tokens per second)
+0.39.848.453 I slot print_timing: id  0 | task 274 |       total time =    3562.51 ms /   430 tokens
+0.39.848.454 I slot print_timing: id  0 | task 274 |    graphs reused =        275
+0.39.848.460 I slot print_timing: id  0 | task 274 | draft acceptance = 0.56044 (  153 accepted /   273 generated), mean len =  4.92
+0.39.848.464 I slot print_timing: id  0 | task 274 |  round cost by draft width = (w7: 39 rounds, 4.92 tok/round, 77.14 ms/round (draft 10.91, verify 53.81, other 12.42), 63.8 tok/s)
+0.39.848.942 I slot      release: id  0 | task 274 | stop processing: n_tokens = 9675, truncated = 0
+0.39.897.880 I slot get_availabl: id  0 | task -1 | selected slot by LCP similarity, f_sim_best = 0.984 (> 0.100 thold), f_keep = 0.980
+0.39.898.544 I slot launch_slot_: id  0 | task 316 | processing task, is_child = 0
+0.39.920.793 I slot   operator(): id  0 | task 316 | draft vocab hot: 1/2048 slots replaced, 125 candidates
+0.40.454.668 I slot   operator(): id  0 | task 316 | HYBRID_DIAG round=1 draft=7 accepted=6 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=510 rs_after=1 rem_after=503 safe=1
+0.40.521.542 I slot   operator(): id  0 | task 316 | HYBRID_DIAG round=2 draft=7 accepted=0 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=503 rs_after=1 rem_after=502 safe=1
+0.40.596.750 I slot   operator(): id  0 | task 316 | HYBRID_DIAG round=3 draft=7 accepted=3 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=502 rs_after=1 rem_after=498 safe=1
+0.40.680.025 I slot   operator(): id  0 | task 316 | HYBRID_DIAG round=4 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=498 rs_after=1 rem_after=490 safe=1
+0.40.752.490 I slot   operator(): id  0 | task 316 | HYBRID_DIAG round=5 draft=7 accepted=3 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=490 rs_after=1 rem_after=486 safe=1
+0.40.831.407 I slot   operator(): id  0 | task 316 | HYBRID_DIAG round=6 draft=7 accepted=5 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=486 rs_after=1 rem_after=480 safe=1
+0.40.912.235 I slot   operator(): id  0 | task 316 | HYBRID_DIAG round=7 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=480 rs_after=1 rem_after=472 safe=1
+0.40.988.700 I slot   operator(): id  0 | task 316 | HYBRID_DIAG round=8 draft=7 accepted=5 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=472 rs_after=1 rem_after=466 safe=1
+0.41.069.753 I slot   operator(): id  0 | task 316 | HYBRID_DIAG round=9 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=466 rs_after=1 rem_after=458 safe=1
+0.41.136.337 I slot   operator(): id  0 | task 316 | HYBRID_DIAG round=10 draft=7 accepted=0 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=458 rs_after=1 rem_after=457 safe=1
+0.41.212.439 I slot   operator(): id  0 | task 316 | HYBRID_DIAG round=11 draft=7 accepted=3 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=457 rs_after=1 rem_after=453 safe=1
+0.41.285.480 I slot   operator(): id  0 | task 316 | HYBRID_DIAG round=12 draft=7 accepted=2 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=453 rs_after=1 rem_after=450 safe=1
+0.41.361.231 I slot   operator(): id  0 | task 316 | HYBRID_DIAG round=13 draft=7 accepted=4 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=450 rs_after=1 rem_after=445 safe=1
+0.41.434.769 I slot   operator(): id  0 | task 316 | HYBRID_DIAG round=14 draft=7 accepted=3 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=445 rs_after=1 rem_after=441 safe=1
+0.41.507.729 I slot   operator(): id  0 | task 316 | HYBRID_DIAG round=15 draft=7 accepted=2 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=441 rs_after=1 rem_after=438 safe=1
+0.41.579.985 I slot   operator(): id  0 | task 316 | HYBRID_DIAG round=16 draft=7 accepted=2 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=438 rs_after=1 rem_after=435 safe=1
+0.41.662.717 I slot   operator(): id  0 | task 316 | HYBRID_DIAG round=17 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=0 rb=1 rs_before=1 rem_before=435 rs_after=4 rem_after=431 safe=0
+0.41.749.799 I slot   operator(): id  0 | task 316 | HYBRID_DIAG round=18 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=431 rs_after=4 rem_after=431 safe=0
+0.41.835.808 I slot   operator(): id  0 | task 316 | HYBRID_DIAG round=19 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=431 rs_after=4 rem_after=431 safe=0
+0.41.918.195 I slot   operator(): id  0 | task 316 | HYBRID_DIAG round=20 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=431 rs_after=4 rem_after=431 safe=0
+0.41.999.047 I slot   operator(): id  0 | task 316 | HYBRID_DIAG round=21 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=431 rs_after=4 rem_after=431 safe=0
+0.42.073.671 I slot   operator(): id  0 | task 316 | HYBRID_DIAG round=22 draft=7 accepted=4 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=431 rs_after=4 rem_after=431 safe=0
+0.42.155.730 I slot   operator(): id  0 | task 316 | HYBRID_DIAG round=23 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=431 rs_after=4 rem_after=431 safe=0
+0.42.236.072 I slot   operator(): id  0 | task 316 | HYBRID_DIAG round=24 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=431 rs_after=4 rem_after=431 safe=0
+0.42.316.632 I slot   operator(): id  0 | task 316 | HYBRID_DIAG round=25 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=431 rs_after=4 rem_after=431 safe=0
+0.42.384.964 I slot   operator(): id  0 | task 316 | HYBRID_DIAG round=26 draft=7 accepted=1 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=431 rs_after=4 rem_after=431 safe=0
+0.42.467.227 I slot   operator(): id  0 | task 316 | HYBRID_DIAG round=27 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=431 rs_after=4 rem_after=431 safe=0
+0.42.546.148 I slot   operator(): id  0 | task 316 | HYBRID_DIAG round=28 draft=7 accepted=6 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=431 rs_after=4 rem_after=431 safe=0
+0.42.627.194 I slot   operator(): id  0 | task 316 | HYBRID_DIAG round=29 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=431 rs_after=4 rem_after=431 safe=0
+0.42.700.153 I slot   operator(): id  0 | task 316 | HYBRID_DIAG round=30 draft=7 accepted=3 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=431 rs_after=4 rem_after=431 safe=0
+0.42.782.629 I slot   operator(): id  0 | task 316 | HYBRID_DIAG round=31 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=431 rs_after=4 rem_after=431 safe=0
+0.42.863.806 I slot   operator(): id  0 | task 316 | HYBRID_DIAG round=32 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=431 rs_after=4 rem_after=431 safe=0
+0.42.945.346 I slot   operator(): id  0 | task 316 | HYBRID_DIAG round=33 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=431 rs_after=4 rem_after=431 safe=0
+0.43.026.338 I slot   operator(): id  0 | task 316 | HYBRID_DIAG round=34 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=431 rs_after=4 rem_after=431 safe=0
+0.43.137.259 I slot   operator(): id  0 | task 316 | HYBRID_DIAG round=35 draft=7 accepted=3 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=431 rs_after=4 rem_after=431 safe=0
+0.43.137.524 I slot print_timing: id  0 | task 316 | prompt eval time =     472.21 ms /   159 tokens (    2.97 ms per token,   336.71 tokens per second)
+0.43.137.531 I slot print_timing: id  0 | task 316 |        eval time =    2766.55 ms /   208 tokens (   13.36 ms per token,    74.82 tokens per second)
+0.43.137.532 I slot print_timing: id  0 | task 316 |       total time =    3238.76 ms /   367 tokens
+0.43.137.533 I slot print_timing: id  0 | task 316 |    graphs reused =        308
+0.43.137.538 I slot print_timing: id  0 | task 316 | draft acceptance = 0.71020 (  174 accepted /   245 generated), mean len =  5.97
+0.43.137.542 I slot print_timing: id  0 | task 316 |  round cost by draft width = (w7: 35 rounds, 5.97 tok/round, 79.04 ms/round (draft 10.89, verify 53.49, other 14.67), 75.5 tok/s)
+0.43.138.038 I slot      release: id  0 | task 316 | stop processing: n_tokens = 9847, truncated = 0
+0.43.189.356 I slot get_availabl: id  0 | task -1 | selected slot by LCP similarity, f_sim_best = 0.945 (> 0.100 thold), f_keep = 0.979
+0.43.190.040 I slot launch_slot_: id  0 | task 354 | processing task, is_child = 0
+0.43.212.121 I slot   operator(): id  0 | task 354 | draft vocab hot: 0/2048 slots replaced, 125 candidates
+0.44.230.802 I slot   operator(): id  0 | task 354 | HYBRID_DIAG round=1 draft=7 accepted=6 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=510 rs_after=1 rem_after=503 safe=1
+0.44.304.816 I slot   operator(): id  0 | task 354 | HYBRID_DIAG round=2 draft=7 accepted=1 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=503 rs_after=1 rem_after=501 safe=1
+0.44.373.687 I slot   operator(): id  0 | task 354 | HYBRID_DIAG round=3 draft=7 accepted=0 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=501 rs_after=1 rem_after=500 safe=1
+0.44.450.135 I slot   operator(): id  0 | task 354 | HYBRID_DIAG round=4 draft=7 accepted=3 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=500 rs_after=1 rem_after=496 safe=1
+0.44.518.311 I slot   operator(): id  0 | task 354 | HYBRID_DIAG round=5 draft=7 accepted=0 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=496 rs_after=1 rem_after=495 safe=1
+0.44.601.744 I slot   operator(): id  0 | task 354 | HYBRID_DIAG round=6 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=495 rs_after=1 rem_after=487 safe=1
+0.44.670.619 I slot   operator(): id  0 | task 354 | HYBRID_DIAG round=7 draft=7 accepted=1 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=487 rs_after=1 rem_after=485 safe=1
+0.44.740.655 I slot   operator(): id  0 | task 354 | HYBRID_DIAG round=8 draft=7 accepted=0 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=485 rs_after=1 rem_after=484 safe=1
+0.44.814.545 I slot   operator(): id  0 | task 354 | HYBRID_DIAG round=9 draft=7 accepted=2 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=484 rs_after=1 rem_after=481 safe=1
+0.44.896.146 I slot   operator(): id  0 | task 354 | HYBRID_DIAG round=10 draft=7 accepted=6 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=481 rs_after=1 rem_after=474 safe=1
+0.44.978.830 I slot   operator(): id  0 | task 354 | HYBRID_DIAG round=11 draft=7 accepted=4 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=474 rs_after=1 rem_after=469 safe=1
+0.45.055.206 I slot   operator(): id  0 | task 354 | HYBRID_DIAG round=12 draft=7 accepted=1 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=469 rs_after=1 rem_after=467 safe=1
+0.45.138.017 I slot   operator(): id  0 | task 354 | HYBRID_DIAG round=13 draft=7 accepted=6 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=467 rs_after=1 rem_after=460 safe=1
+0.45.209.312 I slot   operator(): id  0 | task 354 | HYBRID_DIAG round=14 draft=7 accepted=2 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=460 rs_after=1 rem_after=457 safe=1
+0.45.279.841 I slot   operator(): id  0 | task 354 | HYBRID_DIAG round=15 draft=7 accepted=1 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=457 rs_after=1 rem_after=455 safe=1
+0.45.363.468 I slot   operator(): id  0 | task 354 | HYBRID_DIAG round=16 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=455 rs_after=1 rem_after=447 safe=1
+0.45.440.596 I slot   operator(): id  0 | task 354 | HYBRID_DIAG round=17 draft=7 accepted=5 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=447 rs_after=1 rem_after=441 safe=1
+0.45.510.158 I slot   operator(): id  0 | task 354 | HYBRID_DIAG round=18 draft=7 accepted=1 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=441 rs_after=1 rem_after=439 safe=1
+0.45.580.307 I slot   operator(): id  0 | task 354 | HYBRID_DIAG round=19 draft=7 accepted=0 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=439 rs_after=1 rem_after=438 safe=1
+0.45.654.542 I slot   operator(): id  0 | task 354 | HYBRID_DIAG round=20 draft=7 accepted=2 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=438 rs_after=1 rem_after=435 safe=1
+0.45.732.222 I slot   operator(): id  0 | task 354 | HYBRID_DIAG round=21 draft=7 accepted=4 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=435 rs_after=1 rem_after=430 safe=1
+0.45.811.518 I slot   operator(): id  0 | task 354 | HYBRID_DIAG round=22 draft=7 accepted=5 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=430 rs_after=1 rem_after=424 safe=1
+0.45.881.164 I slot   operator(): id  0 | task 354 | HYBRID_DIAG round=23 draft=7 accepted=1 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=424 rs_after=1 rem_after=422 safe=1
+0.45.953.209 I slot   operator(): id  0 | task 354 | HYBRID_DIAG round=24 draft=7 accepted=1 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=422 rs_after=1 rem_after=420 safe=1
+0.46.026.538 I slot   operator(): id  0 | task 354 | HYBRID_DIAG round=25 draft=7 accepted=2 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=420 rs_after=1 rem_after=417 safe=1
+0.46.104.065 I slot   operator(): id  0 | task 354 | HYBRID_DIAG round=26 draft=7 accepted=4 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=417 rs_after=1 rem_after=412 safe=1
+0.46.175.096 I slot   operator(): id  0 | task 354 | HYBRID_DIAG round=27 draft=7 accepted=2 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=412 rs_after=1 rem_after=409 safe=1
+0.46.258.630 I slot   operator(): id  0 | task 354 | HYBRID_DIAG round=28 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=409 rs_after=1 rem_after=401 safe=1
+0.46.339.849 I slot   operator(): id  0 | task 354 | HYBRID_DIAG round=29 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=401 rs_after=1 rem_after=393 safe=1
+0.46.410.473 I slot   operator(): id  0 | task 354 | HYBRID_DIAG round=30 draft=7 accepted=2 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=393 rs_after=1 rem_after=390 safe=1
+0.46.486.198 I slot   operator(): id  0 | task 354 | HYBRID_DIAG round=31 draft=7 accepted=3 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=390 rs_after=1 rem_after=386 safe=1
+0.46.569.221 I slot   operator(): id  0 | task 354 | HYBRID_DIAG round=32 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=0 rb=1 rs_before=1 rem_before=386 rs_after=4 rem_after=385 safe=0
+0.46.646.530 I slot   operator(): id  0 | task 354 | HYBRID_DIAG round=33 draft=7 accepted=5 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=385 rs_after=4 rem_after=385 safe=0
+0.46.728.244 I slot   operator(): id  0 | task 354 | HYBRID_DIAG round=34 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=385 rs_after=4 rem_after=385 safe=0
+0.46.809.604 I slot   operator(): id  0 | task 354 | HYBRID_DIAG round=35 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=385 rs_after=4 rem_after=385 safe=0
+0.46.890.775 I slot   operator(): id  0 | task 354 | HYBRID_DIAG round=36 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=385 rs_after=4 rem_after=385 safe=0
+0.46.972.371 I slot   operator(): id  0 | task 354 | HYBRID_DIAG round=37 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=385 rs_after=4 rem_after=385 safe=0
+0.47.053.379 I slot   operator(): id  0 | task 354 | HYBRID_DIAG round=38 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=385 rs_after=4 rem_after=385 safe=0
+0.47.134.168 I slot   operator(): id  0 | task 354 | HYBRID_DIAG round=39 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=385 rs_after=4 rem_after=385 safe=0
+0.47.211.056 I slot   operator(): id  0 | task 354 | HYBRID_DIAG round=40 draft=7 accepted=5 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=385 rs_after=4 rem_after=385 safe=0
+0.47.211.257 I slot print_timing: id  0 | task 354 | n_gen =    193, tg =  62.62 t/s, tg_3s =  62.94 t/s
+0.47.292.873 I slot   operator(): id  0 | task 354 | HYBRID_DIAG round=41 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=385 rs_after=4 rem_after=385 safe=0
+0.47.371.876 I slot   operator(): id  0 | task 354 | HYBRID_DIAG round=42 draft=7 accepted=6 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=385 rs_after=4 rem_after=385 safe=0
+0.47.453.266 I slot   operator(): id  0 | task 354 | HYBRID_DIAG round=43 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=385 rs_after=4 rem_after=385 safe=0
+0.47.534.307 I slot   operator(): id  0 | task 354 | HYBRID_DIAG round=44 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=385 rs_after=4 rem_after=385 safe=0
+0.47.615.667 I slot   operator(): id  0 | task 354 | HYBRID_DIAG round=45 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=385 rs_after=4 rem_after=385 safe=0
+0.47.696.508 I slot   operator(): id  0 | task 354 | HYBRID_DIAG round=46 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=385 rs_after=4 rem_after=385 safe=0
+0.47.777.568 I slot   operator(): id  0 | task 354 | HYBRID_DIAG round=47 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=385 rs_after=4 rem_after=385 safe=0
+0.47.856.612 I slot   operator(): id  0 | task 354 | HYBRID_DIAG round=48 draft=7 accepted=6 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=385 rs_after=4 rem_after=385 safe=0
+0.47.856.850 I slot print_timing: id  0 | task 354 | prompt eval time =     954.78 ms /   569 tokens (    1.68 ms per token,   595.95 tokens per second)
+0.47.856.857 I slot print_timing: id  0 | task 354 |        eval time =    3711.83 ms /   255 tokens (   14.61 ms per token,    68.43 tokens per second)
+0.47.856.857 I slot print_timing: id  0 | task 354 |       total time =    4666.61 ms /   824 tokens
+0.47.856.858 I slot print_timing: id  0 | task 354 |    graphs reused =        354
+0.47.856.863 I slot print_timing: id  0 | task 354 | draft acceptance = 0.61310 (  206 accepted /   336 generated), mean len =  5.29
+0.47.856.867 I slot print_timing: id  0 | task 354 |  round cost by draft width = (w7: 48 rounds, 5.29 tok/round, 77.33 ms/round (draft 10.98, verify 54.17, other 12.19), 68.4 tok/s)
+0.47.857.379 I slot      release: id  0 | task 354 | stop processing: n_tokens = 10457, truncated = 0
+0.47.911.982 I slot get_availabl: id  0 | task -1 | selected slot by LCP similarity, f_sim_best = 0.952 (> 0.100 thold), f_keep = 0.976
+0.47.912.637 I slot launch_slot_: id  0 | task 405 | processing task, is_child = 0
+0.47.934.822 I slot   operator(): id  0 | task 405 | draft vocab hot: 0/2048 slots replaced, 125 candidates
+0.48.896.021 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=1 draft=7 accepted=2 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=510 rs_after=1 rem_after=507 safe=1
+0.48.969.430 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=2 draft=7 accepted=0 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=507 rs_after=1 rem_after=506 safe=1
+0.49.054.478 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=3 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=506 rs_after=1 rem_after=498 safe=1
+0.49.123.759 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=4 draft=7 accepted=1 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=498 rs_after=1 rem_after=496 safe=1
+0.49.191.983 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=5 draft=7 accepted=0 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=496 rs_after=1 rem_after=495 safe=1
+0.49.269.118 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=6 draft=7 accepted=3 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=495 rs_after=1 rem_after=491 safe=1
+0.49.349.918 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=7 draft=7 accepted=6 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=491 rs_after=1 rem_after=484 safe=1
+0.49.431.731 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=8 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=0 rb=1 rs_before=1 rem_before=484 rs_after=4 rem_after=483 safe=0
+0.49.519.843 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=9 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.49.599.851 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=10 draft=7 accepted=4 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.49.684.277 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=11 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.49.765.769 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=12 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.49.847.121 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=13 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.49.928.437 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=14 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.50.010.068 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=15 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.50.091.192 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=16 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.50.172.192 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=17 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.50.253.223 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=18 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.50.334.314 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=19 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.50.413.486 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=20 draft=7 accepted=6 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.50.495.717 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=21 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.50.577.372 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=22 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.50.658.829 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=23 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.50.740.929 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=24 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.50.823.323 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=25 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.50.905.118 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=26 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.50.986.412 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=27 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.51.067.619 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=28 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.51.148.853 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=29 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.51.229.762 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=30 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.51.310.651 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=31 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.51.391.547 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=32 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.51.472.361 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=33 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.51.553.755 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=34 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.51.635.469 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=35 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.51.717.211 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=36 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.51.798.432 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=37 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.51.880.240 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=38 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.51.880.455 I slot print_timing: id  0 | task 405 | n_gen =    271, tg =  88.15 t/s, tg_3s =  88.47 t/s
+0.51.962.153 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=39 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.52.043.866 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=40 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.52.130.886 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=41 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.52.217.415 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=42 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.52.298.686 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=43 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.52.380.451 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=44 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.52.461.693 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=45 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.52.543.100 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=46 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.52.624.449 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=47 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.52.706.867 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=48 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.52.788.021 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=49 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.52.869.574 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=50 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.52.951.166 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=51 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.53.033.145 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=52 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.53.114.953 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=53 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.53.196.068 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=54 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.53.277.220 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=55 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.53.358.297 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=56 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.53.439.808 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=57 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.53.522.324 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=58 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.53.603.971 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=59 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.53.685.427 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=60 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.53.767.324 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=61 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.53.848.588 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=62 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.53.930.082 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=63 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.54.011.580 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=64 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.54.092.896 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=65 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.54.173.926 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=66 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.54.255.149 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=67 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.54.336.160 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=68 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.54.417.041 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=69 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.54.498.548 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=70 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.54.580.346 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=71 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.54.662.549 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=72 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.54.750.067 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=73 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.54.824.759 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=74 draft=7 accepted=1 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.54.909.686 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=75 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.54.909.899 I slot print_timing: id  0 | task 405 | n_gen =    561, tg =  91.92 t/s, tg_3s =  95.73 t/s
+0.54.991.577 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=76 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.55.073.434 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=77 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.55.154.990 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=78 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.55.235.948 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=79 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.55.317.207 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=80 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.55.398.424 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=81 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.55.480.109 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=82 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.55.562.226 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=83 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.55.644.395 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=84 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.55.726.343 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=85 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.55.807.243 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=86 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.55.889.147 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=87 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.55.970.818 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=88 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.56.052.354 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=89 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.56.133.928 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=90 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.56.215.104 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=91 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.56.296.127 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=92 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.56.377.187 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=93 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.56.458.967 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=94 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.56.540.947 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=95 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.56.623.156 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=96 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.56.705.085 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=97 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.56.786.541 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=98 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.56.867.898 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=99 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.56.949.851 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=100 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.57.031.362 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=101 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.57.112.984 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=102 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.57.194.351 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=103 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.57.275.572 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=104 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.57.356.806 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=105 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.57.444.655 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=106 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.57.531.250 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=107 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.57.613.016 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=108 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.57.695.160 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=109 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.57.776.888 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=110 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.57.859.015 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=111 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.57.940.793 I slot   operator(): id  0 | task 405 | HYBRID_DIAG round=112 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=483 rs_after=4 rem_after=483 safe=0
+0.57.940.999 I slot print_timing: id  0 | task 405 | prompt eval time =     904.74 ms /   517 tokens (    1.75 ms per token,   571.44 tokens per second)
+0.57.941.005 I slot print_timing: id  0 | task 405 |        eval time =    9123.44 ms /   857 tokens (   10.66 ms per token,    93.82 tokens per second)
+0.57.941.006 I slot print_timing: id  0 | task 405 |       total time =   10028.18 ms /  1374 tokens
+0.57.941.007 I slot print_timing: id  0 | task 405 |    graphs reused =        461
+0.57.941.018 I slot print_timing: id  0 | task 405 | draft acceptance = 0.94898 (  744 accepted /   784 generated), mean len =  7.64
+0.57.941.022 I slot print_timing: id  0 | task 405 |  round cost by draft width = (w7: 112 rounds, 7.64 tok/round, 81.46 ms/round (draft 11.02, verify 53.43, other 17.01), 93.8 tok/s)
+0.57.941.528 I slot      release: id  0 | task 405 | stop processing: n_tokens = 11572, truncated = 0
+0.57.998.994 I slot get_availabl: id  0 | task -1 | selected slot by LCP similarity, f_sim_best = 0.752 (> 0.100 thold), f_keep = 0.926
+0.57.999.661 I slot launch_slot_: id  0 | task 520 | processing task, is_child = 0
+0.58.022.726 I slot   operator(): id  0 | task 520 | draft vocab hot: 0/2048 slots replaced, 161 candidates
+1.02.536.701 I slot print_timing: id  0 | task 520 | prompt processing, n_tokens =   3528, progress = 1.00, t =   4.04 s / 874.11 tokens per second
+1.02.752.609 I slot   operator(): id  0 | task 520 | HYBRID_DIAG round=1 draft=7 accepted=2 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=510 rs_after=1 rem_after=507 safe=1
+1.02.833.396 I slot   operator(): id  0 | task 520 | HYBRID_DIAG round=2 draft=7 accepted=3 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=507 rs_after=1 rem_after=503 safe=1
+1.02.902.632 I slot   operator(): id  0 | task 520 | HYBRID_DIAG round=3 draft=7 accepted=0 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=503 rs_after=1 rem_after=502 safe=1
+1.02.988.339 I slot   operator(): id  0 | task 520 | HYBRID_DIAG round=4 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=0 rb=1 rs_before=1 rem_before=502 rs_after=4 rem_after=497 safe=0
+1.03.070.558 I slot   operator(): id  0 | task 520 | HYBRID_DIAG round=5 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=497 rs_after=4 rem_after=497 safe=0
+1.03.152.248 I slot   operator(): id  0 | task 520 | HYBRID_DIAG round=6 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=497 rs_after=4 rem_after=497 safe=0
+1.03.234.115 I slot   operator(): id  0 | task 520 | HYBRID_DIAG round=7 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=497 rs_after=4 rem_after=497 safe=0
+1.03.316.277 I slot   operator(): id  0 | task 520 | HYBRID_DIAG round=8 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=497 rs_after=4 rem_after=497 safe=0
+1.03.398.253 I slot   operator(): id  0 | task 520 | HYBRID_DIAG round=9 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=497 rs_after=4 rem_after=497 safe=0
+1.03.480.439 I slot   operator(): id  0 | task 520 | HYBRID_DIAG round=10 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=497 rs_after=4 rem_after=497 safe=0
+1.03.558.154 I slot   operator(): id  0 | task 520 | HYBRID_DIAG round=11 draft=7 accepted=4 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=497 rs_after=4 rem_after=497 safe=0
+1.03.640.985 I slot   operator(): id  0 | task 520 | HYBRID_DIAG round=12 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=497 rs_after=4 rem_after=497 safe=0
+1.03.723.502 I slot   operator(): id  0 | task 520 | HYBRID_DIAG round=13 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=497 rs_after=4 rem_after=497 safe=0
+1.03.811.954 I slot   operator(): id  0 | task 520 | HYBRID_DIAG round=14 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=497 rs_after=4 rem_after=497 safe=0
+1.03.899.034 I slot   operator(): id  0 | task 520 | HYBRID_DIAG round=15 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=497 rs_after=4 rem_after=497 safe=0
+1.03.981.581 I slot   operator(): id  0 | task 520 | HYBRID_DIAG round=16 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=497 rs_after=4 rem_after=497 safe=0
+1.04.063.523 I slot   operator(): id  0 | task 520 | HYBRID_DIAG round=17 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=497 rs_after=4 rem_after=497 safe=0
+1.04.145.838 I slot   operator(): id  0 | task 520 | HYBRID_DIAG round=18 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=497 rs_after=4 rem_after=497 safe=0
+1.04.227.636 I slot   operator(): id  0 | task 520 | HYBRID_DIAG round=19 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=497 rs_after=4 rem_after=497 safe=0
+1.04.309.776 I slot   operator(): id  0 | task 520 | HYBRID_DIAG round=20 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=497 rs_after=4 rem_after=497 safe=0
+1.04.415.315 I slot   operator(): id  0 | task 520 | HYBRID_DIAG round=21 draft=7 accepted=2 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=497 rs_after=4 rem_after=497 safe=0
+1.04.415.589 I slot print_timing: id  0 | task 520 | prompt eval time =    4673.86 ms /  3532 tokens (    1.32 ms per token,   755.69 tokens per second)
+1.04.415.596 I slot print_timing: id  0 | task 520 |        eval time =    1741.85 ms /   143 tokens (   12.27 ms per token,    81.52 tokens per second)
+1.04.415.597 I slot print_timing: id  0 | task 520 |       total time =    6415.71 ms /  3675 tokens
+1.04.415.598 I slot print_timing: id  0 | task 520 |    graphs reused =        480
+1.04.415.604 I slot print_timing: id  0 | task 520 | draft acceptance = 0.83673 (  123 accepted /   147 generated), mean len =  6.86
+1.04.415.608 I slot print_timing: id  0 | task 520 |  round cost by draft width = (w7: 21 rounds, 6.86 tok/round, 82.95 ms/round (draft 11.17, verify 54.64, other 17.13), 82.7 tok/s)
+1.04.416.221 I slot      release: id  0 | task 520 | stop processing: n_tokens = 14388, truncated = 0
+1.04.480.091 I slot get_availabl: id  0 | task -1 | selected slot by LCP similarity, f_sim_best = 0.963 (> 0.100 thold), f_keep = 0.990
+1.04.480.908 I slot launch_slot_: id  0 | task 545 | processing task, is_child = 0
+1.04.505.473 I slot   operator(): id  0 | task 545 | draft vocab hot: 0/2048 slots replaced, 161 candidates
+1.05.521.079 I slot   operator(): id  0 | task 545 | HYBRID_DIAG round=1 draft=7 accepted=6 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=510 rs_after=1 rem_after=503 safe=1
+1.05.593.426 I slot   operator(): id  0 | task 545 | HYBRID_DIAG round=2 draft=7 accepted=0 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=503 rs_after=1 rem_after=502 safe=1
+1.05.670.633 I slot   operator(): id  0 | task 545 | HYBRID_DIAG round=3 draft=7 accepted=3 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=502 rs_after=1 rem_after=498 safe=1
+1.05.747.121 I slot   operator(): id  0 | task 545 | HYBRID_DIAG round=4 draft=7 accepted=3 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=498 rs_after=1 rem_after=494 safe=1
+1.05.821.042 I slot   operator(): id  0 | task 545 | HYBRID_DIAG round=5 draft=7 accepted=2 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=494 rs_after=1 rem_after=491 safe=1
+1.05.904.710 I slot   operator(): id  0 | task 545 | HYBRID_DIAG round=6 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=491 rs_after=4 rem_after=484 safe=1
+1.05.986.547 I slot   operator(): id  0 | task 545 | HYBRID_DIAG round=7 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=0 rb=1 rs_before=4 rem_before=484 rs_after=4 rem_after=484 safe=0
+1.06.068.603 I slot   operator(): id  0 | task 545 | HYBRID_DIAG round=8 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=484 rs_after=4 rem_after=484 safe=0
+1.06.150.953 I slot   operator(): id  0 | task 545 | HYBRID_DIAG round=9 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=484 rs_after=4 rem_after=484 safe=0
+1.06.239.313 I slot   operator(): id  0 | task 545 | HYBRID_DIAG round=10 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=484 rs_after=4 rem_after=484 safe=0
+1.06.326.117 I slot   operator(): id  0 | task 545 | HYBRID_DIAG round=11 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=484 rs_after=4 rem_after=484 safe=0
+1.06.408.354 I slot   operator(): id  0 | task 545 | HYBRID_DIAG round=12 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=484 rs_after=4 rem_after=484 safe=0
+1.06.491.538 I slot   operator(): id  0 | task 545 | HYBRID_DIAG round=13 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=484 rs_after=4 rem_after=484 safe=0
+1.06.573.536 I slot   operator(): id  0 | task 545 | HYBRID_DIAG round=14 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=484 rs_after=4 rem_after=484 safe=0
+1.06.656.434 I slot   operator(): id  0 | task 545 | HYBRID_DIAG round=15 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=484 rs_after=4 rem_after=484 safe=0
+1.06.740.060 I slot   operator(): id  0 | task 545 | HYBRID_DIAG round=16 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=484 rs_after=4 rem_after=484 safe=0
+1.06.822.079 I slot   operator(): id  0 | task 545 | HYBRID_DIAG round=17 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=484 rs_after=4 rem_after=484 safe=0
+1.06.903.876 I slot   operator(): id  0 | task 545 | HYBRID_DIAG round=18 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=484 rs_after=4 rem_after=484 safe=0
+1.06.985.730 I slot   operator(): id  0 | task 545 | HYBRID_DIAG round=19 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=484 rs_after=4 rem_after=484 safe=0
+1.07.067.920 I slot   operator(): id  0 | task 545 | HYBRID_DIAG round=20 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=484 rs_after=4 rem_after=484 safe=0
+1.07.149.780 I slot   operator(): id  0 | task 545 | HYBRID_DIAG round=21 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=484 rs_after=4 rem_after=484 safe=0
+1.07.232.251 I slot   operator(): id  0 | task 545 | HYBRID_DIAG round=22 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=484 rs_after=4 rem_after=484 safe=0
+1.07.335.236 I slot   operator(): id  0 | task 545 | HYBRID_DIAG round=23 draft=7 accepted=2 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=484 rs_after=4 rem_after=484 safe=0
+1.07.335.506 I slot print_timing: id  0 | task 545 | prompt eval time =     953.29 ms /   552 tokens (    1.73 ms per token,   579.05 tokens per second)
+1.07.335.514 I slot print_timing: id  0 | task 545 |        eval time =    1901.08 ms /   157 tokens (   12.19 ms per token,    82.06 tokens per second)
+1.07.335.515 I slot print_timing: id  0 | task 545 |       total time =    2854.37 ms /   709 tokens
+1.07.335.516 I slot print_timing: id  0 | task 545 |    graphs reused =        501
+1.07.335.521 I slot print_timing: id  0 | task 545 | draft acceptance = 0.83851 (  135 accepted /   161 generated), mean len =  6.87
+1.07.335.525 I slot print_timing: id  0 | task 545 |  round cost by draft width = (w7: 23 rounds, 6.87 tok/round, 82.66 ms/round (draft 11.21, verify 54.56, other 16.89), 83.1 tok/s)
+1.07.336.146 I slot      release: id  0 | task 545 | stop processing: n_tokens = 14950, truncated = 0
+1.07.397.887 I slot get_availabl: id  0 | task -1 | selected slot by LCP similarity, f_sim_best = 0.966 (> 0.100 thold), f_keep = 0.989
+1.07.398.563 I slot launch_slot_: id  0 | task 571 | processing task, is_child = 0
+1.07.422.818 I slot   operator(): id  0 | task 571 | draft vocab hot: 0/2048 slots replaced, 161 candidates
+1.08.424.935 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=1 draft=7 accepted=3 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=510 rs_after=1 rem_after=506 safe=1
+1.08.514.201 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=2 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=506 rs_after=4 rem_after=500 safe=1
+1.08.597.549 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=3 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.08.680.233 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=4 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.08.762.781 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=5 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.08.845.083 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=6 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.08.933.943 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=7 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.09.020.920 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=8 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.09.103.415 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=9 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.09.185.687 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=10 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.09.268.826 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=11 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.09.351.560 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=12 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.09.433.355 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=13 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.09.515.589 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=14 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.09.598.334 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=15 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.09.680.653 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=16 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.09.763.113 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=17 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.09.845.229 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=18 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.09.925.696 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=19 draft=7 accepted=6 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.10.007.939 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=20 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.10.089.741 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=21 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.10.171.909 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=22 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.10.253.986 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=23 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.10.336.881 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=24 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.10.419.084 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=25 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.10.501.231 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=26 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.10.583.806 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=27 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.10.666.197 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=28 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.10.749.185 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=29 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.10.832.019 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=30 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.10.914.550 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=31 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.10.997.097 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=32 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.11.079.133 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=33 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.11.158.945 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=34 draft=7 accepted=6 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.11.241.394 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=35 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.11.323.926 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=36 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.11.406.026 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=37 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.11.406.237 I slot print_timing: id  0 | task 571 | n_gen =    291, tg =  94.68 t/s, tg_3s =  95.00 t/s
+1.11.488.119 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=38 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.11.570.293 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=39 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.11.658.287 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=40 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.11.745.349 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=41 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.11.827.865 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=42 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.11.910.445 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=43 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.11.993.383 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=44 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.12.076.182 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=45 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.12.158.509 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=46 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.12.241.100 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=47 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.12.323.266 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=48 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.12.406.041 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=49 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.12.488.674 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=50 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.12.571.697 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=51 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.12.654.681 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=52 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.12.738.005 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=53 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.12.820.149 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=54 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.12.902.377 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=55 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.12.984.890 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=56 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.13.067.115 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=57 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.13.149.392 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=58 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.13.231.789 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=59 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.13.314.813 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=60 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.13.398.366 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=61 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.13.480.646 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=62 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.13.562.950 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=63 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.13.645.528 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=64 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.13.729.096 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=65 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.13.810.006 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=66 draft=7 accepted=6 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.13.892.831 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=67 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.13.975.311 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=68 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.14.057.912 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=69 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.14.136.198 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=70 draft=7 accepted=5 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.14.218.850 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=71 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.14.306.862 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=72 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.14.394.116 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=73 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.14.476.997 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=74 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.14.477.229 I slot print_timing: id  0 | task 571 | n_gen =    584, tg =  95.05 t/s, tg_3s =  95.41 t/s
+1.14.559.614 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=75 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.14.642.256 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=76 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.14.724.805 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=77 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.14.807.945 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=78 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.14.890.327 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=79 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.14.972.238 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=80 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.15.054.572 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=81 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.15.137.285 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=82 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.15.219.393 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=83 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.15.301.125 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=84 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.15.383.849 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=85 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.15.466.958 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=86 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.15.549.396 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=87 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.15.632.240 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=88 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.15.711.611 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=89 draft=7 accepted=5 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.15.794.805 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=90 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.15.877.589 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=91 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.15.959.824 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=92 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.16.042.582 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=93 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.16.125.058 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=94 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.16.207.893 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=95 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.16.289.892 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=96 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.16.371.982 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=97 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.16.455.240 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=98 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.16.538.659 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=99 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.16.621.148 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=100 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.16.704.137 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=101 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.16.787.424 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=102 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.16.869.983 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=103 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.16.958.336 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=104 draft=7 accepted=7 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.17.078.201 I slot   operator(): id  0 | task 571 | HYBRID_DIAG round=105 draft=7 accepted=4 g=1 lazy=1 await_before=0 await_after=0 rb=1 rs_before=4 rem_before=500 rs_after=4 rem_after=500 safe=0
+1.17.078.468 I slot print_timing: id  0 | task 571 | prompt eval time =     944.59 ms /   521 tokens (    1.81 ms per token,   551.56 tokens per second)
+1.17.078.476 I slot print_timing: id  0 | task 571 |        eval time =    8735.09 ms /   825 tokens (   10.60 ms per token,    94.33 tokens per second)
+1.17.078.477 I slot print_timing: id  0 | task 571 |       total time =    9679.69 ms /  1346 tokens
+1.17.078.478 I slot print_timing: id  0 | task 571 |    graphs reused =        601
+1.17.078.484 I slot print_timing: id  0 | task 571 | draft acceptance = 0.98095 (  721 accepted /   735 generated), mean len =  7.87
+1.17.078.488 I slot print_timing: id  0 | task 571 |  round cost by draft width = (w7: 105 rounds, 7.87 tok/round, 83.19 ms/round (draft 11.24, verify 54.04, other 17.91), 94.6 tok/s)
+1.17.079.124 I slot      release: id  0 | task 571 | stop processing: n_tokens = 16135, truncated = 0
+1.17.144.943 I slot get_availabl: id  0 | task -1 | selected slot by LCP similarity, f_sim_best = 0.817 (> 0.100 thold), f_keep = 0.949
+1.17.145.636 I slot launch_slot_: id  0 | task 679 | processing task, is_child = 0
+1.17.170.418 I slot   operator(): id  0 | task 679 | draft vocab hot: 0/2048 slots replaced, 223 candidates
+1.21.722.804 I slot print_timing: id  0 | task 679 | prompt processing, n_tokens =   3434, progress = 1.00, t =   4.06 s / 846.60 tokens per second
+1.21.940.581 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=1 draft=7 accepted=1 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=510 rs_after=1 rem_after=508 safe=1
+1.22.016.914 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=2 draft=7 accepted=0 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=508 rs_after=1 rem_after=507 safe=1
+1.22.089.246 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=3 draft=7 accepted=0 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=507 rs_after=1 rem_after=506 safe=1
+1.22.163.302 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=4 draft=7 accepted=1 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=506 rs_after=1 rem_after=504 safe=1
+1.22.248.736 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=5 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=504 rs_after=1 rem_after=496 safe=1
+1.22.327.068 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=6 draft=7 accepted=5 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=496 rs_after=1 rem_after=490 safe=1
+1.22.404.734 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=7 draft=7 accepted=4 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=490 rs_after=1 rem_after=485 safe=1
+1.22.475.253 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=8 draft=7 accepted=0 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=485 rs_after=1 rem_after=484 safe=1
+1.22.562.362 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=9 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=484 rs_after=1 rem_after=476 safe=1
+1.22.646.077 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=10 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=476 rs_after=1 rem_after=468 safe=1
+1.22.731.566 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=11 draft=7 accepted=6 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=468 rs_after=1 rem_after=461 safe=1
+1.22.816.022 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=12 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=461 rs_after=1 rem_after=453 safe=1
+1.22.899.114 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=13 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=453 rs_after=1 rem_after=445 safe=1
+1.22.982.079 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=14 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=445 rs_after=1 rem_after=437 safe=1
+1.23.065.078 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=15 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=437 rs_after=1 rem_after=429 safe=1
+1.23.147.332 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=16 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=429 rs_after=1 rem_after=421 safe=1
+1.23.229.319 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=17 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=421 rs_after=1 rem_after=413 safe=1
+1.23.312.299 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=18 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=413 rs_after=1 rem_after=405 safe=1
+1.23.394.909 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=19 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=405 rs_after=1 rem_after=397 safe=1
+1.23.478.183 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=20 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=397 rs_after=1 rem_after=389 safe=1
+1.23.561.686 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=21 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=389 rs_after=1 rem_after=381 safe=1
+1.23.644.327 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=22 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=381 rs_after=1 rem_after=373 safe=1
+1.23.728.200 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=23 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=373 rs_after=1 rem_after=365 safe=1
+1.23.811.383 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=24 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=365 rs_after=1 rem_after=357 safe=1
+1.23.888.717 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=25 draft=7 accepted=4 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=357 rs_after=1 rem_after=352 safe=1
+1.23.973.107 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=26 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=352 rs_after=1 rem_after=344 safe=1
+1.24.056.151 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=27 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=344 rs_after=1 rem_after=336 safe=1
+1.24.138.891 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=28 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=336 rs_after=1 rem_after=328 safe=1
+1.24.221.792 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=29 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=328 rs_after=1 rem_after=320 safe=1
+1.24.304.984 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=30 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=320 rs_after=1 rem_after=312 safe=1
+1.24.394.096 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=31 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=312 rs_after=1 rem_after=304 safe=1
+1.24.481.902 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=32 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=304 rs_after=1 rem_after=296 safe=1
+1.24.565.505 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=33 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=296 rs_after=1 rem_after=288 safe=1
+1.24.648.727 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=34 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=288 rs_after=1 rem_after=280 safe=1
+1.24.732.880 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=35 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=280 rs_after=1 rem_after=272 safe=1
+1.24.812.184 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=36 draft=7 accepted=5 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=272 rs_after=1 rem_after=266 safe=1
+1.24.895.201 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=37 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=266 rs_after=1 rem_after=258 safe=1
+1.24.895.408 I slot print_timing: id  0 | task 679 | n_gen =    253, tg =  83.07 t/s, tg_3s =  83.39 t/s
+1.24.977.789 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=38 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=258 rs_after=1 rem_after=250 safe=1
+1.25.060.431 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=39 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=250 rs_after=1 rem_after=242 safe=1
+1.25.143.282 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=40 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=242 rs_after=1 rem_after=234 safe=1
+1.25.226.005 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=41 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=234 rs_after=1 rem_after=226 safe=1
+1.25.309.268 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=42 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=226 rs_after=1 rem_after=218 safe=1
+1.25.388.453 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=43 draft=7 accepted=5 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=218 rs_after=1 rem_after=212 safe=1
+1.25.472.750 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=44 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=212 rs_after=1 rem_after=204 safe=1
+1.25.549.883 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=45 draft=7 accepted=4 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=204 rs_after=1 rem_after=199 safe=1
+1.25.634.752 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=46 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=199 rs_after=1 rem_after=191 safe=1
+1.25.718.369 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=47 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=191 rs_after=1 rem_after=183 safe=1
+1.25.801.275 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=48 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=183 rs_after=1 rem_after=175 safe=1
+1.25.880.468 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=49 draft=7 accepted=5 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=175 rs_after=1 rem_after=169 safe=1
+1.25.964.459 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=50 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=169 rs_after=1 rem_after=161 safe=1
+1.26.047.633 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=51 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=161 rs_after=1 rem_after=153 safe=1
+1.26.124.370 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=52 draft=7 accepted=4 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=153 rs_after=1 rem_after=148 safe=1
+1.26.209.204 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=53 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=148 rs_after=1 rem_after=140 safe=1
+1.26.291.886 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=54 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=140 rs_after=1 rem_after=132 safe=1
+1.26.374.616 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=55 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=132 rs_after=1 rem_after=124 safe=1
+1.26.457.737 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=56 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=124 rs_after=1 rem_after=116 safe=1
+1.26.540.817 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=57 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=116 rs_after=1 rem_after=108 safe=1
+1.26.624.428 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=58 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=108 rs_after=1 rem_after=100 safe=1
+1.26.708.094 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=59 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=100 rs_after=1 rem_after=92 safe=1
+1.26.791.861 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=60 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=92 rs_after=1 rem_after=84 safe=1
+1.26.875.128 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=61 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=84 rs_after=1 rem_after=76 safe=1
+1.26.958.422 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=62 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=76 rs_after=1 rem_after=68 safe=1
+1.27.041.037 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=63 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=68 rs_after=1 rem_after=60 safe=1
+1.27.130.537 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=64 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=60 rs_after=1 rem_after=52 safe=1
+1.27.213.669 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=65 draft=7 accepted=5 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=52 rs_after=1 rem_after=46 safe=1
+1.27.297.463 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=66 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=46 rs_after=1 rem_after=38 safe=1
+1.27.374.393 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=67 draft=7 accepted=4 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=38 rs_after=1 rem_after=33 safe=1
+1.27.457.717 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=68 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=33 rs_after=1 rem_after=25 safe=1
+1.27.538.578 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=69 draft=7 accepted=6 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=25 rs_after=1 rem_after=18 safe=1
+1.27.621.743 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=70 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=18 rs_after=1 rem_after=10 safe=1
+1.27.705.969 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=71 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=10 rs_after=1 rem_after=2 safe=1
+1.27.778.975 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=72 draft=7 accepted=2 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=1 rem_before=2 rs_after=2 rem_after=0 safe=0
+1.27.851.278 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=73 draft=7 accepted=0 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=2 rem_before=0 rs_after=4 rem_after=0 safe=0
+1.27.924.798 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=74 draft=7 accepted=1 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.27.925.005 I slot print_timing: id  0 | task 679 | n_gen =    515, tg =  84.77 t/s, tg_3s =  86.48 t/s
+1.27.996.383 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=75 draft=7 accepted=0 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.28.074.416 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=76 draft=7 accepted=2 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.28.150.793 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=77 draft=7 accepted=3 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.28.222.635 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=78 draft=7 accepted=1 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.28.301.148 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=79 draft=7 accepted=3 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.28.375.724 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=80 draft=7 accepted=2 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.28.449.354 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=81 draft=7 accepted=1 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.28.520.318 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=82 draft=7 accepted=0 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.28.594.892 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=83 draft=7 accepted=1 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.28.669.501 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=84 draft=7 accepted=1 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.28.740.754 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=85 draft=7 accepted=0 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.28.813.519 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=86 draft=7 accepted=0 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.28.891.779 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=87 draft=7 accepted=3 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.28.965.715 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=88 draft=7 accepted=2 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.29.036.496 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=89 draft=7 accepted=0 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.29.110.142 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=90 draft=7 accepted=0 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.29.181.893 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=91 draft=7 accepted=0 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.29.254.187 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=92 draft=7 accepted=0 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.29.327.634 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=93 draft=7 accepted=0 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.29.405.545 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=94 draft=7 accepted=3 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.29.477.853 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=95 draft=7 accepted=1 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.29.560.935 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=96 draft=7 accepted=5 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.29.641.218 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=97 draft=7 accepted=5 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.29.725.941 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=98 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.29.801.203 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=99 draft=7 accepted=3 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.29.886.682 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=100 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.29.967.659 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=101 draft=7 accepted=6 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.30.051.056 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=102 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.30.130.358 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=103 draft=7 accepted=5 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.30.213.760 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=104 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.30.296.496 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=105 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.30.379.192 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=106 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.30.462.446 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=107 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.30.545.036 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=108 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.30.624.166 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=109 draft=7 accepted=5 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.30.709.038 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=110 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.30.792.713 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=111 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.30.875.910 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=112 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.30.959.195 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=113 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.30.959.404 I slot print_timing: id  0 | task 679 | n_gen =    690, tg =  75.73 t/s, tg_3s =  57.67 t/s
+1.31.042.414 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=114 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.31.125.358 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=115 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.31.208.793 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=116 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.31.297.922 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=117 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.31.386.354 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=118 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.31.465.806 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=119 draft=7 accepted=5 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.31.549.966 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=120 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.31.633.618 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=121 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.31.713.246 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=122 draft=7 accepted=5 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.31.798.231 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=123 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.31.881.748 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=124 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.31.965.507 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=125 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.32.048.584 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=126 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.32.132.364 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=127 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.32.215.364 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=128 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.32.298.114 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=129 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.32.381.234 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=130 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.32.464.562 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=131 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.32.542.123 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=132 draft=7 accepted=4 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.32.627.336 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=133 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.32.710.678 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=134 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.32.794.767 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=135 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.32.878.123 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=136 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.32.961.170 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=137 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.33.044.388 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=138 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.33.127.355 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=139 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.33.211.117 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=140 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.33.289.900 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=141 draft=7 accepted=5 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.33.373.021 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=142 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.33.455.594 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=143 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.33.531.050 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=144 draft=7 accepted=3 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.33.615.859 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=145 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.33.699.816 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=146 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.33.783.460 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=147 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.33.866.952 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=148 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.33.939.843 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=149 draft=7 accepted=2 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.34.025.499 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=150 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.34.025.703 I slot print_timing: id  0 | task 679 | n_gen =    968, tg =  79.50 t/s, tg_3s =  90.66 t/s
+1.34.114.280 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=151 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.34.201.975 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=152 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.34.284.751 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=153 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.34.367.578 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=154 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.34.451.635 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=155 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.34.535.749 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=156 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.34.619.900 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=157 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.34.703.890 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=158 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.34.786.801 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=159 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.34.860.292 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=160 draft=7 accepted=2 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.34.946.624 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=161 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.35.030.842 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=162 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.35.110.247 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=163 draft=7 accepted=5 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.35.193.288 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=164 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.35.270.275 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=165 draft=7 accepted=4 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.35.341.915 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=166 draft=7 accepted=1 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.35.423.661 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=167 draft=7 accepted=5 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.35.508.063 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=168 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.35.591.913 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=169 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.35.675.269 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=170 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.35.756.343 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=171 draft=7 accepted=6 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.35.840.387 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=172 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.35.915.662 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=173 draft=7 accepted=3 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.36.001.393 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=174 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.36.085.627 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=175 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.36.169.568 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=176 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.36.253.192 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=177 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.36.336.316 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=178 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.36.418.992 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=179 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.36.502.180 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=180 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.36.579.514 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=181 draft=7 accepted=4 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.36.664.422 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=182 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.36.748.328 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=183 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.36.830.292 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=184 draft=7 accepted=6 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.36.913.835 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=185 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.37.003.087 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=186 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.37.090.713 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=187 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.37.090.929 I slot print_timing: id  0 | task 679 | n_gen =   1237, tg =  81.16 t/s, tg_3s =  87.76 t/s
+1.37.174.250 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=188 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.37.257.480 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=189 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.37.340.575 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=190 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.37.423.889 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=191 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.37.505.126 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=192 draft=7 accepted=6 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.37.585.014 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=193 draft=7 accepted=5 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.37.669.921 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=194 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.37.745.839 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=195 draft=7 accepted=3 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.37.832.235 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=196 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.37.916.592 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=197 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.38.000.646 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=198 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.38.084.433 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=199 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.38.167.961 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=200 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.38.251.411 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=201 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.38.324.600 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=202 draft=7 accepted=2 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.38.405.584 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=203 draft=7 accepted=5 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.38.489.534 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=204 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.38.573.170 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=205 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.38.657.078 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=206 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.38.740.547 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=207 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.38.824.274 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=208 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.38.902.148 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=209 draft=7 accepted=4 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.38.987.329 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=210 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.39.068.478 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=211 draft=7 accepted=6 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.39.151.699 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=212 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.39.234.828 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=213 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.39.318.087 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=214 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.39.401.612 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=215 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.39.485.081 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=216 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.39.562.385 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=217 draft=7 accepted=4 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.39.648.067 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=218 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.39.731.579 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=219 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.39.810.971 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=220 draft=7 accepted=5 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.39.900.721 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=221 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.39.989.214 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=222 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.40.072.635 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=223 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.40.156.151 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=224 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.40.156.360 I slot print_timing: id  0 | task 679 | n_gen =   1510, tg =  82.48 t/s, tg_3s =  89.06 t/s
+1.40.239.420 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=225 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.40.322.399 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=226 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.40.394.681 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=227 draft=7 accepted=2 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.40.480.747 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=228 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.40.564.844 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=229 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.40.649.606 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=230 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.40.725.356 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=231 draft=7 accepted=3 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.40.811.365 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=232 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.40.894.588 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=233 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.40.974.016 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=234 draft=7 accepted=5 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.41.058.092 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=235 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.41.141.245 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=236 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.41.224.117 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=237 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.41.307.601 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=238 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.41.380.954 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=239 draft=7 accepted=2 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.41.456.795 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=240 draft=7 accepted=2 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.41.529.130 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=241 draft=7 accepted=0 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.41.608.455 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=242 draft=7 accepted=3 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.41.680.883 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=243 draft=7 accepted=1 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.41.768.920 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=244 draft=7 accepted=7 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.41.841.025 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=245 draft=7 accepted=1 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.41.917.344 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=246 draft=7 accepted=2 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.41.997.706 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=247 draft=7 accepted=4 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.42.068.931 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=248 draft=7 accepted=0 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.42.145.392 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=249 draft=7 accepted=2 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.42.216.753 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=250 draft=7 accepted=0 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.42.293.805 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=251 draft=7 accepted=2 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.42.371.400 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=252 draft=7 accepted=3 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.42.445.432 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=253 draft=7 accepted=2 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.42.522.084 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=254 draft=7 accepted=3 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.42.595.092 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=255 draft=7 accepted=1 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.42.671.200 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=256 draft=7 accepted=1 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.42.751.328 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=257 draft=7 accepted=3 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.42.826.088 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=258 draft=7 accepted=2 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.42.897.174 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=259 draft=7 accepted=0 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.42.974.198 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=260 draft=7 accepted=2 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.43.052.264 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=261 draft=7 accepted=3 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.43.131.683 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=262 draft=7 accepted=4 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.43.206.410 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=263 draft=7 accepted=2 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.43.206.616 I slot print_timing: id  0 | task 679 | n_gen =   1688, tg =  79.04 t/s, tg_3s =  58.36 t/s
+1.43.285.780 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=264 draft=7 accepted=4 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.43.365.776 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=265 draft=7 accepted=5 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.43.437.259 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=266 draft=7 accepted=1 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.43.513.209 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=267 draft=7 accepted=2 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.43.585.224 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=268 draft=7 accepted=0 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.43.662.224 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=269 draft=7 accepted=2 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.43.740.527 I slot   operator(): id  0 | task 679 | HYBRID_DIAG round=270 draft=7 accepted=3 g=1 lazy=1 await_before=1 await_after=1 rb=1 rs_before=4 rem_before=0 rs_after=4 rem_after=0 safe=1
+1.43.740.743 I slot print_timing: id  0 | task 679 | prompt eval time =    4715.86 ms /  3438 tokens (    1.37 ms per token,   729.03 tokens per second)
+1.43.740.749 I slot print_timing: id  0 | task 679 |        eval time =   21879.05 ms /  1712 tokens (   12.79 ms per token,    78.20 tokens per second)
+1.43.740.750 I slot print_timing: id  0 | task 679 |       total time =   26594.91 ms /  5150 tokens
+1.43.740.751 I slot print_timing: id  0 | task 679 |    graphs reused =        864
+1.43.740.756 I slot print_timing: id  0 | task 679 | draft acceptance = 0.76243 ( 1441 accepted /  1890 generated), mean len =  6.34
+1.43.740.760 I slot print_timing: id  0 | task 679 |  round cost by draft width = (w7: 270 rounds, 6.34 tok/round, 81.03 ms/round (draft 11.49, verify 55.24, other 14.31), 78.2 tok/s)
+1.43.741.504 I slot      release: id  0 | task 679 | stop processing: n_tokens = 20454, truncated = 0

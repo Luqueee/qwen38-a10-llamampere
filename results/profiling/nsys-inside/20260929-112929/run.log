@@ -1,0 +1,24 @@
+==========================================
+ NSIGHT INSIDE CONTAINER
+==========================================
+Run   : 20260929-112929
+Label : nsys-inside-20260929-112929
+
+[1/7] Precheck...
+/usr/local/bin/nsys
+NVIDIA Nsight Systems version 2026.5.1.161-265138896106v0
+GGML_Q8_TURBO3_MMA_NCOLS1_MIN=2
+
+[2/7] Preparing Nsight inside the container...
+Nsight binary: /opt/nvidia/nsight-systems-cli/2026.5.1/target-linux-x64/nsys
+Nsight root  : /opt/nvidia/nsight-systems-cli/2026.5.1
+Profiling container created.
+
+[3/7] Stopping production and starting the profiling container...
+Waiting for /health...
+Server ready.
+
+[4/7] Replay...
+ERROR: model-serving is not running
+
+Restoring model-serving...

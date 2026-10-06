@@ -1,0 +1,131 @@
+# Final model server: Qwen3.8-27B-ATX-4-XS on the llamAmpere runtime (NVIDIA A10, 24 GB).
+#
+# Reference specification of the container as deployed. It is declarative, not a script:
+# translate it to `docker run`, Compose or your configuration-management tool.
+#
+# Placeholders (supply them at deploy time, never commit real values):
+#   ${API_KEY}          bearer key required by the server (--api-key)
+#   ${DRAFT_VOCAB_MAP}  file name of the pinned MTP draft-vocabulary map inside /models
+#
+# Related: docs/final-configuration.md (rationale, build, model pins).
+
+name: model-serving
+image: local/llamampere:v0.4-sm86        # built from the pinned llamAmpere commit, see the doc
+
+command:
+  # Model and API
+  - --model
+  - /models/Qwen3.8-27B-ATX-4-XS.gguf
+  - --alias
+  - qwen3.8-27b
+  - --host
+  - 0.0.0.0
+  - --port
+  - "8000"
+  - --api-key
+  - ${API_KEY}
+
+  # Context and slots: 2 slots x 81,920 tokens = 163,840 total
+  - --ctx-size
+  - "163840"
+  - --parallel
+  - "2"
+  - --kv-unified-per-slot
+  - "81920"
+
+  # Throughput
+  - --batch-size
+  - "4096"
+  - --ubatch-size
+  - "1024"
+  - --threads
+  - "8"
+  - --threads-batch
+  - "8"
+  - --n-gpu-layers
+  - "99"
+  - --flash-attn
+  - "on"
+  - --fit
+  - "off"
+
+  # KV cache
+  - --cache-type-k
+  - q8_0
+  - --cache-type-v
+  - turbo3
+
+  # Prompt reuse
+  - --jinja
+  - --cache-prompt
+  - --cache-ram
+  - "8192"
+  - --ctx-checkpoints
+  - "24"
+  - --checkpoint-min-step
+  - "10240"
+
+  # Reasoning
+  - --reasoning
+  - "on"
+  - --reasoning-budget
+  - "512"
+  - --reasoning-format
+  - deepseek
+
+  # Sampling: greedy
+  - --temp
+  - "0"
+  - --top-k
+  - "1"
+  - --top-p
+  - "1"
+  - --min-p
+  - "0"
+
+  # MTP speculative decoding
+  - --spec-type
+  - draft-mtp
+  - --spec-draft-n-max
+  - "7"
+  - --spec-draft-p-min
+  - "0"
+  - --spec-draft-type-k
+  - q8_0
+  - --spec-draft-type-v
+  - turbo3
+  - --spec-draft-vocab-map
+  - /models/${DRAFT_VOCAB_MAP}
+  - --spec-draft-vocab-hot
+  - "2048"
+
+  # Observability
+  - --metrics
+  - --perf
+
+environment:
+  GGML_Q8_TURBO3_MMA_FUSED: "1"
+  GGML_Q8_TURBO3_MMA_NCOLS1_MIN: "2"
+  GGML_CUDA_SM86_GDN_COLS: "8"
+
+ports:
+  - 127.0.0.1:8000:8000       # host loopback
+  - 172.17.0.1:8000:8000      # Docker bridge gateway, so other containers on the host can reach it
+
+volumes:
+  - /home/ubuntu/models/qwen3.8-27b-atx:/models:ro
+
+device_requests:
+  - driver: nvidia
+    count: -1
+    capabilities: [[gpu]]
+
+ipc_mode: host
+
+healthcheck:
+  test: [CMD, curl, -f, "http://localhost:8000/health"]
+  retries: 3
+
+# Restart only when the runtime changed (new image build, new model file or new vocabulary map),
+# not on every configuration run.
+restart_on: runtime_change

@@ -1,0 +1,4 @@
+CPU decode : 82.29 tok/s
+GPU decode : 81.68 tok/s
+Gain       : -0.74%
+Decision   : KERNEL_NEXT: the verifier adds little; focus on IQ4_XS width8.

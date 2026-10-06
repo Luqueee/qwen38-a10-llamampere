@@ -1,0 +1,165 @@
+0.04.571.466 I slot get_availabl: id  0 | task -1 | selected slot by LRU, t_last = -1
+0.04.571.497 I srv        update: prompt cache: 0 prompts, 0.0 MiB (limit 8192.0 MiB, 131072 tokens, 8589934592 est)
+0.04.571.602 I slot launch_slot_: id  0 | task 0 | processing task, is_child = 0
+0.04.571.747 I slot   operator(): id  0 | task 0 | draft vocab hot: 3/2048 slots replaced, 14 candidates
+0.08.128.827 I slot print_timing: id  0 | task 0 | n_gen =    176, tg =  57.74 t/s, tg_3s =  58.07 t/s
+0.11.175.065 I slot print_timing: id  0 | task 0 | n_gen =    336, tg =  55.13 t/s, tg_3s =  52.52 t/s
+0.13.899.965 I slot print_timing: id  0 | task 0 | prompt eval time =     526.22 ms /   203 tokens (    2.59 ms per token,   385.77 tokens per second)
+0.13.899.976 I slot print_timing: id  0 | task 0 |        eval time =    8801.92 ms /   482 tokens (   18.30 ms per token,    54.65 tokens per second)
+0.13.899.977 I slot print_timing: id  0 | task 0 |       total time =    9328.14 ms /   685 tokens
+0.13.899.981 I slot print_timing: id  0 | task 0 |    graphs reused =        158
+0.13.899.985 I slot print_timing: id  0 | task 0 | draft acceptance = 0.66667 (  322 accepted /   483 generated), mean len =  3.00
+0.13.900.063 I slot      release: id  0 | task 0 | stop processing: n_tokens = 686, truncated = 0
+0.13.936.065 I slot get_availabl: id  0 | task -1 | selected slot by LRU, t_last = 8069967217
+0.14.176.286 I srv        update: prompt cache: 1 prompts, 466.4 MiB (limit 8192.0 MiB, 131072 tokens, 131072 est)
+0.14.176.964 I slot launch_slot_: id  0 | task 165 | processing task, is_child = 0
+0.14.185.586 I slot   operator(): id  0 | task 165 | draft vocab hot: 31/2048 slots replaced, 113 candidates
+0.18.656.212 I slot print_timing: id  0 | task 165 | prompt processing, n_tokens =   4096, progress = 0.49, t =   3.86 s / 1060.64 tokens per second
+0.22.233.625 I slot print_timing: id  0 | task 165 | prompt processing, n_tokens =   7275, progress = 0.88, t =   7.87 s / 924.04 tokens per second
+0.23.441.990 I slot print_timing: id  0 | task 165 | prompt processing, n_tokens =   8215, progress = 0.99, t =   8.82 s / 931.65 tokens per second
+0.23.665.478 I slot print_timing: id  0 | task 165 | prompt processing, n_tokens =   8299, progress = 1.00, t =   9.44 s / 879.51 tokens per second
+0.26.827.521 I slot print_timing: id  0 | task 165 | n_gen =    162, tg =  53.21 t/s, tg_3s =  53.53 t/s
+0.27.341.377 I slot print_timing: id  0 | task 165 | prompt eval time =    9624.38 ms /  8303 tokens (    1.16 ms per token,   862.70 tokens per second)
+0.27.341.387 I slot print_timing: id  0 | task 165 |        eval time =    3539.83 ms /   196 tokens (   18.15 ms per token,    55.09 tokens per second)
+0.27.341.388 I slot print_timing: id  0 | task 165 |       total time =   13164.21 ms /  8499 tokens
+0.27.341.389 I slot print_timing: id  0 | task 165 |    graphs reused =        219
+0.27.341.393 I slot print_timing: id  0 | task 165 | draft acceptance = 0.69841 (  132 accepted /   189 generated), mean len =  3.10
+0.27.341.829 I slot      release: id  0 | task 165 | stop processing: n_tokens = 8498, truncated = 0
+0.27.380.153 I slot get_availabl: id  0 | task -1 | selected slot by LCP similarity, f_sim_best = 0.976 (> 0.100 thold), f_keep = 0.977
+0.27.380.822 I slot launch_slot_: id  0 | task 234 | processing task, is_child = 0
+0.27.402.489 I slot   operator(): id  0 | task 234 | draft vocab hot: 1/2048 slots replaced, 118 candidates
+0.28.699.424 I slot print_timing: id  0 | task 234 | prompt eval time =     522.32 ms /   209 tokens (    2.50 ms per token,   400.13 tokens per second)
+0.28.699.444 I slot print_timing: id  0 | task 234 |        eval time =     796.06 ms /    51 tokens (   15.92 ms per token,    62.81 tokens per second)
+0.28.699.445 I slot print_timing: id  0 | task 234 |       total time =    1318.38 ms /   260 tokens
+0.28.699.446 I slot print_timing: id  0 | task 234 |    graphs reused =        231
+0.28.699.450 I slot print_timing: id  0 | task 234 | draft acceptance = 0.94872 (   37 accepted /    39 generated), mean len =  3.85
+0.28.699.920 I slot      release: id  0 | task 234 | stop processing: n_tokens = 8558, truncated = 0
+0.28.740.693 I slot get_availabl: id  0 | task -1 | selected slot by LCP similarity, f_sim_best = 0.978 (> 0.100 thold), f_keep = 0.994
+0.28.741.354 I slot launch_slot_: id  0 | task 250 | processing task, is_child = 0
+0.28.762.792 I slot   operator(): id  0 | task 250 | draft vocab hot: 1/2048 slots replaced, 122 candidates
+0.31.419.910 I slot print_timing: id  0 | task 250 | prompt eval time =     491.67 ms /   191 tokens (    2.57 ms per token,   388.47 tokens per second)
+0.31.419.922 I slot print_timing: id  0 | task 250 |        eval time =    2186.66 ms /   141 tokens (   15.62 ms per token,    64.02 tokens per second)
+0.31.419.922 I slot print_timing: id  0 | task 250 |       total time =    2678.33 ms /   332 tokens
+0.31.419.923 I slot print_timing: id  0 | task 250 |    graphs reused =        267
+0.31.419.927 I slot print_timing: id  0 | task 250 | draft acceptance = 0.89474 (  102 accepted /   114 generated), mean len =  3.68
+0.31.420.395 I slot      release: id  0 | task 250 | stop processing: n_tokens = 8835, truncated = 0
+0.31.462.484 I slot get_availabl: id  0 | task -1 | selected slot by LCP similarity, f_sim_best = 0.981 (> 0.100 thold), f_keep = 0.984
+0.31.463.170 I slot launch_slot_: id  0 | task 291 | processing task, is_child = 0
+0.31.484.628 I slot   operator(): id  0 | task 291 | draft vocab hot: 0/2048 slots replaced, 122 candidates
+0.33.515.542 I slot print_timing: id  0 | task 291 | prompt eval time =     483.83 ms /   170 tokens (    2.85 ms per token,   351.36 tokens per second)
+0.33.515.553 I slot print_timing: id  0 | task 291 |        eval time =    1568.33 ms /   108 tokens (   14.66 ms per token,    68.23 tokens per second)
+0.33.515.554 I slot print_timing: id  0 | task 291 |       total time =    2052.15 ms /   278 tokens
+0.33.515.555 I slot print_timing: id  0 | task 291 |    graphs reused =        292
+0.33.515.559 I slot print_timing: id  0 | task 291 | draft acceptance = 0.98765 (   80 accepted /    81 generated), mean len =  3.96
+0.33.516.037 I slot      release: id  0 | task 291 | stop processing: n_tokens = 8968, truncated = 0
+0.33.560.368 I slot get_availabl: id  0 | task -1 | selected slot by LCP similarity, f_sim_best = 0.975 (> 0.100 thold), f_keep = 0.988
+0.33.561.092 I slot launch_slot_: id  0 | task 321 | processing task, is_child = 0
+0.33.582.671 I slot   operator(): id  0 | task 321 | draft vocab hot: 0/2048 slots replaced, 122 candidates
+0.34.963.566 I slot print_timing: id  0 | task 321 | prompt eval time =     544.25 ms /   229 tokens (    2.38 ms per token,   420.76 tokens per second)
+0.34.963.578 I slot print_timing: id  0 | task 321 |        eval time =     858.01 ms /    55 tokens (   15.89 ms per token,    62.94 tokens per second)
+0.34.963.579 I slot print_timing: id  0 | task 321 |       total time =    1402.26 ms /   284 tokens
+0.34.963.580 I slot print_timing: id  0 | task 321 |    graphs reused =        306
+0.34.963.584 I slot print_timing: id  0 | task 321 | draft acceptance = 0.86667 (   39 accepted /    45 generated), mean len =  3.60
+0.34.964.062 I slot      release: id  0 | task 321 | stop processing: n_tokens = 9140, truncated = 0
+0.35.009.666 I slot get_availabl: id  0 | task -1 | selected slot by LCP similarity, f_sim_best = 0.982 (> 0.100 thold), f_keep = 0.994
+0.35.010.361 I slot launch_slot_: id  0 | task 339 | processing task, is_child = 0
+0.35.032.146 I slot   operator(): id  0 | task 339 | draft vocab hot: 0/2048 slots replaced, 122 candidates
+0.36.366.607 I slot print_timing: id  0 | task 339 | prompt eval time =     487.81 ms /   168 tokens (    2.90 ms per token,   344.40 tokens per second)
+0.36.366.617 I slot print_timing: id  0 | task 339 |        eval time =     868.24 ms /    56 tokens (   15.79 ms per token,    63.35 tokens per second)
+0.36.366.618 I slot print_timing: id  0 | task 339 |       total time =    1356.05 ms /   224 tokens
+0.36.366.620 I slot print_timing: id  0 | task 339 |    graphs reused =        320
+0.36.366.623 I slot print_timing: id  0 | task 339 | draft acceptance = 0.88889 (   40 accepted /    45 generated), mean len =  3.67
+0.36.367.092 I slot      release: id  0 | task 339 | stop processing: n_tokens = 9305, truncated = 0
+0.36.414.067 I slot get_availabl: id  0 | task -1 | selected slot by LCP similarity, f_sim_best = 0.975 (> 0.100 thold), f_keep = 0.994
+0.36.414.685 I slot launch_slot_: id  0 | task 357 | processing task, is_child = 0
+0.36.436.320 I slot   operator(): id  0 | task 357 | draft vocab hot: 0/2048 slots replaced, 123 candidates
+0.39.993.546 I slot print_timing: id  0 | task 357 | n_gen =    182, tg =  59.80 t/s, tg_3s =  60.13 t/s
+0.40.209.936 I slot print_timing: id  0 | task 357 | prompt eval time =     552.08 ms /   237 tokens (    2.33 ms per token,   429.28 tokens per second)
+0.40.209.947 I slot print_timing: id  0 | task 357 |        eval time =    3242.93 ms /   193 tokens (   16.89 ms per token,    59.21 tokens per second)
+0.40.209.948 I slot print_timing: id  0 | task 357 |       total time =    3795.01 ms /   430 tokens
+0.40.209.949 I slot print_timing: id  0 | task 357 |    graphs reused =        375
+0.40.209.953 I slot print_timing: id  0 | task 357 | draft acceptance = 0.80952 (  136 accepted /   168 generated), mean len =  3.43
+0.40.210.446 I slot      release: id  0 | task 357 | stop processing: n_tokens = 9675, truncated = 0
+0.40.260.474 I slot get_availabl: id  0 | task -1 | selected slot by LCP similarity, f_sim_best = 0.984 (> 0.100 thold), f_keep = 0.980
+0.40.261.220 I slot launch_slot_: id  0 | task 416 | processing task, is_child = 0
+0.40.283.318 I slot   operator(): id  0 | task 416 | draft vocab hot: 1/2048 slots replaced, 124 candidates
+0.43.734.876 I slot print_timing: id  0 | task 416 | n_gen =    194, tg =  64.21 t/s, tg_3s =  64.54 t/s
+0.44.005.548 I slot print_timing: id  0 | task 416 | prompt eval time =     467.62 ms /   159 tokens (    2.94 ms per token,   340.02 tokens per second)
+0.44.005.564 I slot print_timing: id  0 | task 416 |        eval time =    3276.49 ms /   208 tokens (   15.83 ms per token,    63.18 tokens per second)
+0.44.005.565 I slot print_timing: id  0 | task 416 |       total time =    3744.10 ms /   367 tokens
+0.44.005.566 I slot print_timing: id  0 | task 416 |    graphs reused =        429
+0.44.005.570 I slot print_timing: id  0 | task 416 | draft acceptance = 0.91071 (  153 accepted /   168 generated), mean len =  3.73
+0.44.006.084 I slot      release: id  0 | task 416 | stop processing: n_tokens = 9847, truncated = 0
+0.44.058.143 I slot get_availabl: id  0 | task -1 | selected slot by LCP similarity, f_sim_best = 0.945 (> 0.100 thold), f_keep = 0.979
+0.44.058.895 I slot launch_slot_: id  0 | task 475 | processing task, is_child = 0
+0.44.081.270 I slot   operator(): id  0 | task 475 | draft vocab hot: 0/2048 slots replaced, 124 candidates
+0.48.011.266 I slot print_timing: id  0 | task 475 | n_gen =    166, tg =  54.79 t/s, tg_3s =  55.12 t/s
+0.49.970.782 I slot print_timing: id  0 | task 475 | prompt eval time =     940.68 ms /   569 tokens (    1.65 ms per token,   604.88 tokens per second)
+0.49.970.800 I slot print_timing: id  0 | task 475 |        eval time =    4970.97 ms /   296 tokens (   16.85 ms per token,    59.34 tokens per second)
+0.49.970.801 I slot print_timing: id  0 | task 475 |       total time =    5911.64 ms /   865 tokens
+0.49.970.802 I slot print_timing: id  0 | task 475 |    graphs reused =        512
+0.49.970.806 I slot print_timing: id  0 | task 475 | draft acceptance = 0.81783 (  211 accepted /   258 generated), mean len =  3.45
+0.49.971.312 I slot      release: id  0 | task 475 | stop processing: n_tokens = 10500, truncated = 0
+0.50.025.288 I slot get_availabl: id  0 | task -1 | selected slot by LCP similarity, f_sim_best = 0.952 (> 0.100 thold), f_keep = 0.972
+0.50.026.033 I slot launch_slot_: id  0 | task 564 | processing task, is_child = 0
+0.50.048.304 I slot   operator(): id  0 | task 564 | draft vocab hot: 0/2048 slots replaced, 124 candidates
+0.53.953.376 I slot print_timing: id  0 | task 564 | n_gen =    199, tg =  65.33 t/s, tg_3s =  65.65 t/s
+0.56.997.178 I slot print_timing: id  0 | task 564 | n_gen =    407, tg =  66.84 t/s, tg_3s =  68.34 t/s
+1.00.042.371 I slot print_timing: id  0 | task 564 | n_gen =    615, tg =  67.33 t/s, tg_3s =  68.30 t/s
+1.03.092.035 I slot print_timing: id  0 | task 564 | n_gen =    823, tg =  67.55 t/s, tg_3s =  68.20 t/s
+1.03.657.555 I slot print_timing: id  0 | task 564 | prompt eval time =     896.29 ms /   517 tokens (    1.73 ms per token,   576.82 tokens per second)
+1.03.657.569 I slot print_timing: id  0 | task 564 |        eval time =   12735.01 ms /   857 tokens (   14.88 ms per token,    67.22 tokens per second)
+1.03.657.569 I slot print_timing: id  0 | task 564 |       total time =   13631.31 ms /  1374 tokens
+1.03.657.570 I slot print_timing: id  0 | task 564 |    graphs reused =        724
+1.03.657.574 I slot print_timing: id  0 | task 564 | draft acceptance = 0.98464 (  641 accepted /   651 generated), mean len =  3.95
+1.03.658.135 I slot      release: id  0 | task 564 | stop processing: n_tokens = 11574, truncated = 0
+1.03.715.834 I slot get_availabl: id  0 | task -1 | selected slot by LCP similarity, f_sim_best = 0.752 (> 0.100 thold), f_keep = 0.926
+1.03.716.534 I slot launch_slot_: id  0 | task 784 | processing task, is_child = 0
+1.03.740.005 I slot   operator(): id  0 | task 784 | draft vocab hot: 0/2048 slots replaced, 160 candidates
+1.08.166.310 I slot print_timing: id  0 | task 784 | prompt processing, n_tokens =   3528, progress = 1.00, t =   3.96 s / 891.90 tokens per second
+1.10.538.038 I slot print_timing: id  0 | task 784 | prompt eval time =    4594.41 ms /  3532 tokens (    1.30 ms per token,   768.76 tokens per second)
+1.10.538.053 I slot print_timing: id  0 | task 784 |        eval time =    2226.87 ms /   143 tokens (   15.68 ms per token,    63.77 tokens per second)
+1.10.538.054 I slot print_timing: id  0 | task 784 |       total time =    6821.28 ms /  3675 tokens
+1.10.538.055 I slot print_timing: id  0 | task 784 |    graphs reused =        759
+1.10.538.059 I slot print_timing: id  0 | task 784 | draft acceptance = 0.96396 (  107 accepted /   111 generated), mean len =  3.89
+1.10.538.705 I slot      release: id  0 | task 784 | stop processing: n_tokens = 14388, truncated = 0
+1.10.598.438 I slot get_availabl: id  0 | task -1 | selected slot by LCP similarity, f_sim_best = 0.963 (> 0.100 thold), f_keep = 0.990
+1.10.599.204 I slot launch_slot_: id  0 | task 825 | processing task, is_child = 0
+1.10.623.636 I slot   operator(): id  0 | task 825 | draft vocab hot: 0/2048 slots replaced, 160 candidates
+1.13.959.293 I slot print_timing: id  0 | task 825 | prompt eval time =     945.52 ms /   552 tokens (    1.71 ms per token,   583.81 tokens per second)
+1.13.959.307 I slot print_timing: id  0 | task 825 |        eval time =    2414.34 ms /   157 tokens (   15.48 ms per token,    64.61 tokens per second)
+1.13.959.307 I slot print_timing: id  0 | task 825 |       total time =    3359.86 ms /   709 tokens
+1.13.959.308 I slot print_timing: id  0 | task 825 |    graphs reused =        797
+1.13.959.313 I slot print_timing: id  0 | task 825 | draft acceptance = 0.98333 (  118 accepted /   120 generated), mean len =  3.95
+1.13.959.958 I slot      release: id  0 | task 825 | stop processing: n_tokens = 14950, truncated = 0
+1.14.021.427 I slot get_availabl: id  0 | task -1 | selected slot by LCP similarity, f_sim_best = 0.966 (> 0.100 thold), f_keep = 0.989
+1.14.022.092 I slot launch_slot_: id  0 | task 868 | processing task, is_child = 0
+1.14.046.631 I slot   operator(): id  0 | task 868 | draft vocab hot: 0/2048 slots replaced, 160 candidates
+1.18.004.716 I slot print_timing: id  0 | task 868 | n_gen =    204, tg =  66.76 t/s, tg_3s =  67.08 t/s
+1.21.035.940 I slot print_timing: id  0 | task 868 | n_gen =    408, tg =  67.03 t/s, tg_3s =  67.30 t/s
+1.24.064.551 I slot print_timing: id  0 | task 868 | n_gen =    612, tg =  67.14 t/s, tg_3s =  67.36 t/s
+1.27.092.268 I slot print_timing: id  0 | task 868 | n_gen =    816, tg =  67.20 t/s, tg_3s =  67.38 t/s
+1.27.313.446 I slot print_timing: id  0 | task 868 | prompt eval time =     941.52 ms /   521 tokens (    1.81 ms per token,   553.36 tokens per second)
+1.27.313.461 I slot print_timing: id  0 | task 868 |        eval time =   12349.60 ms /   825 tokens (   14.99 ms per token,    66.72 tokens per second)
+1.27.313.461 I slot print_timing: id  0 | task 868 |       total time =   13291.13 ms /  1346 tokens
+1.27.313.462 I slot print_timing: id  0 | task 868 |    graphs reused =        999
+1.27.313.467 I slot print_timing: id  0 | task 868 | draft acceptance = 0.99678 (  619 accepted /   621 generated), mean len =  3.99
+1.27.314.149 I slot      release: id  0 | task 868 | stop processing: n_tokens = 16135, truncated = 0
+1.27.379.941 I slot get_availabl: id  0 | task -1 | selected slot by LCP similarity, f_sim_best = 0.817 (> 0.100 thold), f_keep = 0.949
+1.27.380.683 I slot launch_slot_: id  0 | task 1078 | processing task, is_child = 0
+1.27.405.912 I slot   operator(): id  0 | task 1078 | draft vocab hot: 0/2048 slots replaced, 222 candidates
+1.31.916.494 I slot print_timing: id  0 | task 1078 | prompt processing, n_tokens =   3434, progress = 1.00, t =   4.01 s / 855.65 tokens per second
+1.35.106.424 I slot print_timing: id  0 | task 1078 | n_gen =    194, tg =  63.55 t/s, tg_3s =  63.88 t/s
+1.38.160.516 I slot print_timing: id  0 | task 1078 | n_gen =    398, tg =  65.18 t/s, tg_3s =  66.80 t/s
+1.41.216.495 I slot print_timing: id  0 | task 1078 | n_gen =    572, tg =  62.42 t/s, tg_3s =  56.94 t/s
+1.44.261.278 I slot print_timing: id  0 | task 1078 | n_gen =    772, tg =  63.24 t/s, tg_3s =  65.69 t/s
+1.47.263.370 I slot print_timing: id  0 | task 1078 | n_gen =    971, tg =  63.84 t/s, tg_3s =  66.29 t/s
+1.50.299.022 I slot print_timing: id  0 | task 1078 | n_gen =   1168, tg =  64.02 t/s, tg_3s =  64.90 t/s
+1.53.357.404 I slot print_timing: id  0 | task 1078 | n_gen =   1372, tg =  64.40 t/s, tg_3s =  66.70 t/s
+1.56.361.100 I slot print_timing: id  0 | task 1078 | n_gen =   1570, tg =  64.59 t/s, tg_3s =  65.92 t/s
+1.58.963.527 I slot print_timing: id  0 | task 1078 | prompt eval time =    4688.62 ms /  3438 tokens (    1.36 ms per token,   733.27 tokens per second)
+1.58.963.537 I slot print_timing: id  0 | task 1078 |        eval time =   26894.04 ms /  1699 tokens (   15.84 ms per token,    63.14 tokens per second)
+1.58.963.538 I slot print_timing: id  0 | task 1078 |       total time =   31582.66 ms /  5137 tokens
+1.58.963.539 I slot print_timing: id  0 | task 1078 |    graphs reused =       1444
+1.58.963.542 I slot print_timing: id  0 | task 1078 | draft acceptance = 0.91888 ( 1246 accepted /  1356 generated), mean len =  3.76
+1.58.964.350 I slot      release: id  0 | task 1078 | stop processing: n_tokens = 20441, truncated = 0

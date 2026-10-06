@@ -1,0 +1,90 @@
+
+NOTICE: Existing SQLite export found: /home/ubuntu/tryton-replay/nsys-inside/20260929-113352/profile.sqlite
+        It is assumed file was previously exported from: /home/ubuntu/tryton-replay/nsys-inside/20260929-113352/profile.nsys-rep
+        Consider using --force-export=true if needed.
+
+Processing [/home/ubuntu/tryton-replay/nsys-inside/20260929-113352/profile.sqlite] with [/opt/nvidia/nsight-systems-cli/2026.5.1/target-linux-x64/rules/cuda_api_sync.py]... 
+
+ ** CUDA Synchronization APIs (cuda_api_sync):
+
+The following are synchronization APIs that block the host until all issued
+CUDA calls are complete.
+
+Suggestions:
+   1. Avoid excessive use of synchronization.
+   2. Use asynchronous CUDA event calls, such as cudaStreamWaitEvent() and
+cudaEventSynchronize(), to prevent host synchronization.
+
+ Duration (ns)   Start (ns)   PID  TID           API Name          
+ -------------  ------------  ---  ---  ---------------------------
+     496703450   95835841877   27   27  cudaStreamSynchronize_v3020
+     484441151   92590913160   27   27  cudaStreamSynchronize_v3020
+     476191997   93872417606   27   27  cudaStreamSynchronize_v3020
+     472753221   71483393282   27   27  cudaStreamSynchronize_v3020
+     461470955   68271816310   27   27  cudaStreamSynchronize_v3020
+     447623752   69490102821   27   27  cudaStreamSynchronize_v3020
+     427718360   25529092272   27   27  cudaStreamSynchronize_v3020
+     420722883   21853073668   27   27  cudaStreamSynchronize_v3020
+     419644544   24068349097   27   27  cudaStreamSynchronize_v3020
+     418572262   22955795535   27   27  cudaStreamSynchronize_v3020
+     409352439   20562444145   27   27  cudaStreamSynchronize_v3020
+     407883324   18412399880   27   27  cudaStreamSynchronize_v3020
+     404715211   19484095935   27   27  cudaStreamSynchronize_v3020
+     397073468   17352517332   27   27  cudaStreamSynchronize_v3020
+     276619824   47759718681   27   27  cudaStreamSynchronize_v3020
+     274383062   75012964588   27   27  cudaStreamSynchronize_v3020
+     269819957   78523890584   27   27  cudaStreamSynchronize_v3020
+     255412999   53899135875   27   27  cudaStreamSynchronize_v3020
+     232853160   70314656483   27   27  cudaStreamSynchronize_v3020
+     192994589   94664054271   27   27  cudaStreamSynchronize_v3020
+     112327456   39653275477   27   27  cudaStreamSynchronize_v3020
+     110832135   36718177092   27   27  cudaStreamSynchronize_v3020
+     101442407   30336307768   27   27  cudaStreamSynchronize_v3020
+      91325266   31704586253   27   27  cudaStreamSynchronize_v3020
+      89525097   38176197140   27   27  cudaStreamSynchronize_v3020
+      88876807   34516238992   27   27  cudaStreamSynchronize_v3020
+      82531535   43565509126   27   27  cudaStreamSynchronize_v3020
+      75844515    7063211087   27   27  cudaStreamSynchronize_v3020
+      53902571   24584868058   27   27  cudaStreamSynchronize_v3020
+      50681782   26152151301   27   27  cudaStreamSynchronize_v3020
+      46386262  104954809635   27   27  cudaStreamSynchronize_v3020
+      46355900   97317597137   27   27  cudaStreamSynchronize_v3020
+      46355816  123346859617   27   27  cudaStreamSynchronize_v3020
+      46228959  122571724079   27   27  cudaStreamSynchronize_v3020
+      46224850  104773035923   27   27  cudaStreamSynchronize_v3020
+      46169385   40738167599   27   27  cudaStreamSynchronize_v3020
+      46059105  123290218107   27   27  cudaStreamSynchronize_v3020
+      45989459  121614113457   27   27  cudaStreamSynchronize_v3020
+      45907858  108556910535   27   27  cudaStreamSynchronize_v3020
+      45907219   97380651906   27   27  cudaStreamSynchronize_v3020
+      45885937  112014531568   27   27  cudaStreamSynchronize_v3020
+      45804816  121113968107   27   27  cudaStreamSynchronize_v3020
+      45801284  110715069313   27   27  cudaStreamSynchronize_v3020
+      45797937  118629545459   27   27  cudaStreamSynchronize_v3020
+      45794544   99219646415   27   27  cudaStreamSynchronize_v3020
+      45790801  114974739440   27   27  cudaStreamSynchronize_v3020
+      45768510  117893612879   27   27  cudaStreamSynchronize_v3020
+      45756150  116595962626   27   27  cudaStreamSynchronize_v3020
+      45745483  121051548387   27   27  cudaStreamSynchronize_v3020
+      45743897  123757415800   27   27  cudaStreamSynchronize_v3020
+
+Only the top 50 results are displayed. More data may be available.
+
+
+Processing [/home/ubuntu/tryton-replay/nsys-inside/20260929-113352/profile.sqlite] with [/opt/nvidia/nsight-systems-cli/2026.5.1/target-linux-x64/rules/gpu_gaps.py]... 
+
+ ** GPU Gaps (gpu_gaps):
+
+The following are ranges where a GPU is idle for more than 500ms. Addressing
+these gaps might improve application performance.
+
+Suggestions:
+   1. Use CPU sampling data, OS Runtime blocked state backtraces, and/or OS
+Runtime APIs related to thread synchronization to understand if a sluggish or
+blocked CPU is causing the gaps.
+   2. Add NVTX annotations to CPU code to understand the reason behind the gaps.
+
+ Row#  Duration (ns)  Start (ns)  PID  Device ID  Context ID
+ ----  -------------  ----------  ---  ---------  ----------
+    1     3270323435  3476054573   27          0           1
+

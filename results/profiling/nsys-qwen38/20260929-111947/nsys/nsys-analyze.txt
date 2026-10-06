@@ -1,0 +1,11 @@
+
+NOTICE: Existing SQLite export found: /home/ubuntu/tryton-replay/nsys/20260929-111947/profile.sqlite
+        It is assumed file was previously exported from: /home/ubuntu/tryton-replay/nsys/20260929-111947/profile.nsys-rep
+        Consider using --force-export=true if needed.
+
+Processing [/home/ubuntu/tryton-replay/nsys/20260929-111947/profile.sqlite] with [/opt/nvidia/nsight-systems-cli/2026.5.1/target-linux-x64/rules/cuda_api_sync.py]... 
+SKIPPED: /home/ubuntu/tryton-replay/nsys/20260929-111947/profile.sqlite could not be analyzed because it does not contain the required CUDA data. Does the application use CUDA runtime APIs?
+
+Processing [/home/ubuntu/tryton-replay/nsys/20260929-111947/profile.sqlite] with [/opt/nvidia/nsight-systems-cli/2026.5.1/target-linux-x64/rules/gpu_gaps.py]... 
+SKIPPED: /home/ubuntu/tryton-replay/nsys/20260929-111947/profile.sqlite could not be analyzed because it does not contain the required data. Does the application launch GPU operations?
+

@@ -1,0 +1,7 @@
+Total rounds : 902
+Safe rounds  : 549
+Safe pct     : 60.86%
+Trigger      : 13
+Active       : 338
+Near budget  : 1
+Decision     : HYBRID_PATCH_MAYBE: 40-70% of rounds are GPU-safe.

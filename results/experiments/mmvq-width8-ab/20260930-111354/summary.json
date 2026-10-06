@@ -1,0 +1,65 @@
+{
+  "baseline": [
+    {
+      "acceptance": 72.41,
+      "decode": 76.21,
+      "e2e": 100.055,
+      "energy": 4.036,
+      "generated": 5467.0,
+      "gpu": 81.49,
+      "mean": 6.07,
+      "path": "/home/rookie/work/max/mmvq-width8-ab/20260930-111354/baseline/iq4-width8-baseline-20260930-111354-a1.log",
+      "power": 145.2,
+      "prefill": 694.48,
+      "vram": 19539.0
+    },
+    {
+      "acceptance": 72.41,
+      "decode": 74.95,
+      "e2e": 101.935,
+      "energy": 4.109,
+      "generated": 5467.0,
+      "gpu": 81.55,
+      "mean": 6.07,
+      "path": "/home/rookie/work/max/mmvq-width8-ab/20260930-111354/baseline/iq4-width8-baseline-20260930-111354-a2.log",
+      "power": 145.13,
+      "prefill": 677.86,
+      "vram": 19539.0
+    }
+  ],
+  "baseline_decode_mean": 75.58,
+  "decision": "BORDERLINE: improvement is between 0.5% and 2%. Repeat before changing production.",
+  "gain_pct": 1.5347975654935064,
+  "mmq": [
+    {
+      "acceptance": 73.7,
+      "decode": 76.91,
+      "e2e": 98.058,
+      "energy": 3.951,
+      "generated": 5331.0,
+      "gpu": 82.23,
+      "mean": 6.16,
+      "path": "/home/rookie/work/max/mmvq-width8-ab/20260930-111354/mmq/iq4-width8-mmq-20260930-111354-b1.log",
+      "power": 145.04,
+      "prefill": 683.9,
+      "vram": 19543.0
+    },
+    {
+      "acceptance": 73.7,
+      "decode": 76.57,
+      "e2e": 98.648,
+      "energy": 3.975,
+      "generated": 5331.0,
+      "gpu": 81.33,
+      "mean": 6.16,
+      "path": "/home/rookie/work/max/mmvq-width8-ab/20260930-111354/mmq/iq4-width8-mmq-20260930-111354-b2.log",
+      "power": 145.05,
+      "prefill": 676.95,
+      "vram": 19543.0
+    }
+  ],
+  "mmq_decode_mean": 76.74,
+  "same_acceptance": false,
+  "same_generated": false,
+  "same_mean_len": false
+}

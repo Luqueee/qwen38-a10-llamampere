@@ -1,0 +1,4 @@
+Baseline : 75.58 tok/s
+MMQ      : 76.74 tok/s
+Gain     : +1.53%
+Decision : BORDERLINE: improvement is between 0.5% and 2%. Repeat before changing production.

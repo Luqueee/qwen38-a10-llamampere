@@ -1,0 +1,13 @@
+==========================================
+ NSIGHT INSIDE CONTAINER
+==========================================
+
+Run    : 20260930-091240
+Label  : nsys-inside-20260930-091240
+Remote : lambdalabs
+Local  : /home/rookie/work/max/nsys-inside/20260930-091240
+
+[1/8] Precheck...
+/usr/bin/docker
+
+Restoring original model-serving...

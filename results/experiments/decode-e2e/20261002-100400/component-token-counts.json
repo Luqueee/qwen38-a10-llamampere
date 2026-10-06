@@ -1,0 +1,413 @@
+{
+  "0": [
+    {
+      "request": 1,
+      "generated_tokens": 443,
+      "reasoning_retokenized_tokens": 433,
+      "visible_retokenized_tokens": 7,
+      "tool_argument_and_name_retokenized_tokens": 0,
+      "tool_calls": 0,
+      "unattributed_tokens": 3
+    },
+    {
+      "request": 2,
+      "generated_tokens": 257,
+      "reasoning_retokenized_tokens": 225,
+      "visible_retokenized_tokens": 0,
+      "tool_argument_and_name_retokenized_tokens": 11,
+      "tool_calls": 1,
+      "unattributed_tokens": 21
+    },
+    {
+      "request": 3,
+      "generated_tokens": 51,
+      "reasoning_retokenized_tokens": 20,
+      "visible_retokenized_tokens": 0,
+      "tool_argument_and_name_retokenized_tokens": 10,
+      "tool_calls": 1,
+      "unattributed_tokens": 21
+    },
+    {
+      "request": 4,
+      "generated_tokens": 147,
+      "reasoning_retokenized_tokens": 38,
+      "visible_retokenized_tokens": 0,
+      "tool_argument_and_name_retokenized_tokens": 47,
+      "tool_calls": 1,
+      "unattributed_tokens": 62
+    },
+    {
+      "request": 5,
+      "generated_tokens": 108,
+      "reasoning_retokenized_tokens": 12,
+      "visible_retokenized_tokens": 0,
+      "tool_argument_and_name_retokenized_tokens": 56,
+      "tool_calls": 1,
+      "unattributed_tokens": 40
+    },
+    {
+      "request": 6,
+      "generated_tokens": 55,
+      "reasoning_retokenized_tokens": 26,
+      "visible_retokenized_tokens": 0,
+      "tool_argument_and_name_retokenized_tokens": 9,
+      "tool_calls": 1,
+      "unattributed_tokens": 20
+    },
+    {
+      "request": 7,
+      "generated_tokens": 56,
+      "reasoning_retokenized_tokens": 26,
+      "visible_retokenized_tokens": 0,
+      "tool_argument_and_name_retokenized_tokens": 10,
+      "tool_calls": 1,
+      "unattributed_tokens": 20
+    },
+    {
+      "request": 8,
+      "generated_tokens": 193,
+      "reasoning_retokenized_tokens": 63,
+      "visible_retokenized_tokens": 0,
+      "tool_argument_and_name_retokenized_tokens": 67,
+      "tool_calls": 1,
+      "unattributed_tokens": 63
+    },
+    {
+      "request": 9,
+      "generated_tokens": 208,
+      "reasoning_retokenized_tokens": 80,
+      "visible_retokenized_tokens": 0,
+      "tool_argument_and_name_retokenized_tokens": 66,
+      "tool_calls": 1,
+      "unattributed_tokens": 62
+    },
+    {
+      "request": 10,
+      "generated_tokens": 255,
+      "reasoning_retokenized_tokens": 126,
+      "visible_retokenized_tokens": 0,
+      "tool_argument_and_name_retokenized_tokens": 67,
+      "tool_calls": 1,
+      "unattributed_tokens": 62
+    },
+    {
+      "request": 11,
+      "generated_tokens": 857,
+      "reasoning_retokenized_tokens": 28,
+      "visible_retokenized_tokens": 0,
+      "tool_argument_and_name_retokenized_tokens": 789,
+      "tool_calls": 1,
+      "unattributed_tokens": 40
+    },
+    {
+      "request": 12,
+      "generated_tokens": 143,
+      "reasoning_retokenized_tokens": 14,
+      "visible_retokenized_tokens": 0,
+      "tool_argument_and_name_retokenized_tokens": 67,
+      "tool_calls": 1,
+      "unattributed_tokens": 62
+    },
+    {
+      "request": 13,
+      "generated_tokens": 157,
+      "reasoning_retokenized_tokens": 27,
+      "visible_retokenized_tokens": 0,
+      "tool_argument_and_name_retokenized_tokens": 68,
+      "tool_calls": 1,
+      "unattributed_tokens": 62
+    },
+    {
+      "request": 14,
+      "generated_tokens": 825,
+      "reasoning_retokenized_tokens": 11,
+      "visible_retokenized_tokens": 0,
+      "tool_argument_and_name_retokenized_tokens": 774,
+      "tool_calls": 1,
+      "unattributed_tokens": 40
+    },
+    {
+      "request": 15,
+      "generated_tokens": 1712,
+      "reasoning_retokenized_tokens": 512,
+      "visible_retokenized_tokens": 1197,
+      "tool_argument_and_name_retokenized_tokens": 0,
+      "tool_calls": 0,
+      "unattributed_tokens": 3
+    }
+  ],
+  "0.35": [
+    {
+      "request": 1,
+      "generated_tokens": 394,
+      "reasoning_retokenized_tokens": 384,
+      "visible_retokenized_tokens": 7,
+      "tool_argument_and_name_retokenized_tokens": 0,
+      "tool_calls": 0,
+      "unattributed_tokens": 3
+    },
+    {
+      "request": 2,
+      "generated_tokens": 151,
+      "reasoning_retokenized_tokens": 120,
+      "visible_retokenized_tokens": 0,
+      "tool_argument_and_name_retokenized_tokens": 10,
+      "tool_calls": 1,
+      "unattributed_tokens": 21
+    },
+    {
+      "request": 3,
+      "generated_tokens": 51,
+      "reasoning_retokenized_tokens": 20,
+      "visible_retokenized_tokens": 0,
+      "tool_argument_and_name_retokenized_tokens": 10,
+      "tool_calls": 1,
+      "unattributed_tokens": 21
+    },
+    {
+      "request": 4,
+      "generated_tokens": 147,
+      "reasoning_retokenized_tokens": 38,
+      "visible_retokenized_tokens": 0,
+      "tool_argument_and_name_retokenized_tokens": 47,
+      "tool_calls": 1,
+      "unattributed_tokens": 62
+    },
+    {
+      "request": 5,
+      "generated_tokens": 108,
+      "reasoning_retokenized_tokens": 12,
+      "visible_retokenized_tokens": 0,
+      "tool_argument_and_name_retokenized_tokens": 56,
+      "tool_calls": 1,
+      "unattributed_tokens": 40
+    },
+    {
+      "request": 6,
+      "generated_tokens": 55,
+      "reasoning_retokenized_tokens": 26,
+      "visible_retokenized_tokens": 0,
+      "tool_argument_and_name_retokenized_tokens": 9,
+      "tool_calls": 1,
+      "unattributed_tokens": 20
+    },
+    {
+      "request": 7,
+      "generated_tokens": 56,
+      "reasoning_retokenized_tokens": 26,
+      "visible_retokenized_tokens": 0,
+      "tool_argument_and_name_retokenized_tokens": 10,
+      "tool_calls": 1,
+      "unattributed_tokens": 20
+    },
+    {
+      "request": 8,
+      "generated_tokens": 193,
+      "reasoning_retokenized_tokens": 63,
+      "visible_retokenized_tokens": 0,
+      "tool_argument_and_name_retokenized_tokens": 67,
+      "tool_calls": 1,
+      "unattributed_tokens": 63
+    },
+    {
+      "request": 9,
+      "generated_tokens": 208,
+      "reasoning_retokenized_tokens": 80,
+      "visible_retokenized_tokens": 0,
+      "tool_argument_and_name_retokenized_tokens": 66,
+      "tool_calls": 1,
+      "unattributed_tokens": 62
+    },
+    {
+      "request": 10,
+      "generated_tokens": 298,
+      "reasoning_retokenized_tokens": 169,
+      "visible_retokenized_tokens": 0,
+      "tool_argument_and_name_retokenized_tokens": 67,
+      "tool_calls": 1,
+      "unattributed_tokens": 62
+    },
+    {
+      "request": 11,
+      "generated_tokens": 857,
+      "reasoning_retokenized_tokens": 28,
+      "visible_retokenized_tokens": 0,
+      "tool_argument_and_name_retokenized_tokens": 789,
+      "tool_calls": 1,
+      "unattributed_tokens": 40
+    },
+    {
+      "request": 12,
+      "generated_tokens": 143,
+      "reasoning_retokenized_tokens": 14,
+      "visible_retokenized_tokens": 0,
+      "tool_argument_and_name_retokenized_tokens": 67,
+      "tool_calls": 1,
+      "unattributed_tokens": 62
+    },
+    {
+      "request": 13,
+      "generated_tokens": 157,
+      "reasoning_retokenized_tokens": 27,
+      "visible_retokenized_tokens": 0,
+      "tool_argument_and_name_retokenized_tokens": 68,
+      "tool_calls": 1,
+      "unattributed_tokens": 62
+    },
+    {
+      "request": 14,
+      "generated_tokens": 825,
+      "reasoning_retokenized_tokens": 11,
+      "visible_retokenized_tokens": 0,
+      "tool_argument_and_name_retokenized_tokens": 774,
+      "tool_calls": 1,
+      "unattributed_tokens": 40
+    },
+    {
+      "request": 15,
+      "generated_tokens": 1771,
+      "reasoning_retokenized_tokens": 512,
+      "visible_retokenized_tokens": 1256,
+      "tool_argument_and_name_retokenized_tokens": 0,
+      "tool_calls": 0,
+      "unattributed_tokens": 3
+    }
+  ],
+  "0.55": [
+    {
+      "request": 1,
+      "generated_tokens": 482,
+      "reasoning_retokenized_tokens": 472,
+      "visible_retokenized_tokens": 7,
+      "tool_argument_and_name_retokenized_tokens": 0,
+      "tool_calls": 0,
+      "unattributed_tokens": 3
+    },
+    {
+      "request": 2,
+      "generated_tokens": 133,
+      "reasoning_retokenized_tokens": 102,
+      "visible_retokenized_tokens": 0,
+      "tool_argument_and_name_retokenized_tokens": 10,
+      "tool_calls": 1,
+      "unattributed_tokens": 21
+    },
+    {
+      "request": 3,
+      "generated_tokens": 51,
+      "reasoning_retokenized_tokens": 20,
+      "visible_retokenized_tokens": 0,
+      "tool_argument_and_name_retokenized_tokens": 10,
+      "tool_calls": 1,
+      "unattributed_tokens": 21
+    },
+    {
+      "request": 4,
+      "generated_tokens": 162,
+      "reasoning_retokenized_tokens": 38,
+      "visible_retokenized_tokens": 0,
+      "tool_argument_and_name_retokenized_tokens": 62,
+      "tool_calls": 1,
+      "unattributed_tokens": 62
+    },
+    {
+      "request": 5,
+      "generated_tokens": 108,
+      "reasoning_retokenized_tokens": 12,
+      "visible_retokenized_tokens": 0,
+      "tool_argument_and_name_retokenized_tokens": 56,
+      "tool_calls": 1,
+      "unattributed_tokens": 40
+    },
+    {
+      "request": 6,
+      "generated_tokens": 61,
+      "reasoning_retokenized_tokens": 32,
+      "visible_retokenized_tokens": 0,
+      "tool_argument_and_name_retokenized_tokens": 9,
+      "tool_calls": 1,
+      "unattributed_tokens": 20
+    },
+    {
+      "request": 7,
+      "generated_tokens": 56,
+      "reasoning_retokenized_tokens": 26,
+      "visible_retokenized_tokens": 0,
+      "tool_argument_and_name_retokenized_tokens": 10,
+      "tool_calls": 1,
+      "unattributed_tokens": 20
+    },
+    {
+      "request": 8,
+      "generated_tokens": 193,
+      "reasoning_retokenized_tokens": 63,
+      "visible_retokenized_tokens": 0,
+      "tool_argument_and_name_retokenized_tokens": 67,
+      "tool_calls": 1,
+      "unattributed_tokens": 63
+    },
+    {
+      "request": 9,
+      "generated_tokens": 208,
+      "reasoning_retokenized_tokens": 80,
+      "visible_retokenized_tokens": 0,
+      "tool_argument_and_name_retokenized_tokens": 66,
+      "tool_calls": 1,
+      "unattributed_tokens": 62
+    },
+    {
+      "request": 10,
+      "generated_tokens": 166,
+      "reasoning_retokenized_tokens": 37,
+      "visible_retokenized_tokens": 0,
+      "tool_argument_and_name_retokenized_tokens": 67,
+      "tool_calls": 1,
+      "unattributed_tokens": 62
+    },
+    {
+      "request": 11,
+      "generated_tokens": 857,
+      "reasoning_retokenized_tokens": 28,
+      "visible_retokenized_tokens": 0,
+      "tool_argument_and_name_retokenized_tokens": 789,
+      "tool_calls": 1,
+      "unattributed_tokens": 40
+    },
+    {
+      "request": 12,
+      "generated_tokens": 143,
+      "reasoning_retokenized_tokens": 14,
+      "visible_retokenized_tokens": 0,
+      "tool_argument_and_name_retokenized_tokens": 67,
+      "tool_calls": 1,
+      "unattributed_tokens": 62
+    },
+    {
+      "request": 13,
+      "generated_tokens": 157,
+      "reasoning_retokenized_tokens": 27,
+      "visible_retokenized_tokens": 0,
+      "tool_argument_and_name_retokenized_tokens": 68,
+      "tool_calls": 1,
+      "unattributed_tokens": 62
+    },
+    {
+      "request": 14,
+      "generated_tokens": 825,
+      "reasoning_retokenized_tokens": 11,
+      "visible_retokenized_tokens": 0,
+      "tool_argument_and_name_retokenized_tokens": 774,
+      "tool_calls": 1,
+      "unattributed_tokens": 40
+    },
+    {
+      "request": 15,
+      "generated_tokens": 1756,
+      "reasoning_retokenized_tokens": 512,
+      "visible_retokenized_tokens": 1241,
+      "tool_argument_and_name_retokenized_tokens": 0,
+      "tool_calls": 0,
+      "unattributed_tokens": 3
+    }
+  ]
+}

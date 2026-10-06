@@ -1,0 +1,13 @@
+Generating SQLite file /home/ubuntu/tryton-replay/nsys/20260929-111947/profile.sqlite from /home/ubuntu/tryton-replay/nsys/20260929-111947/profile.nsys-rep
+Processing [/home/ubuntu/tryton-replay/nsys/20260929-111947/profile.sqlite] with [/opt/nvidia/nsight-systems-cli/2026.5.1/target-linux-x64/reports/cuda_api_sum.py]... 
+SKIPPED: /home/ubuntu/tryton-replay/nsys/20260929-111947/profile.sqlite does not contain CUDA trace data.
+
+Processing [/home/ubuntu/tryton-replay/nsys/20260929-111947/profile.sqlite] with [/opt/nvidia/nsight-systems-cli/2026.5.1/target-linux-x64/reports/cuda_gpu_kern_sum.py]... 
+SKIPPED: /home/ubuntu/tryton-replay/nsys/20260929-111947/profile.sqlite does not contain CUDA kernel data.
+
+Processing [/home/ubuntu/tryton-replay/nsys/20260929-111947/profile.sqlite] with [/opt/nvidia/nsight-systems-cli/2026.5.1/target-linux-x64/reports/cuda_gpu_mem_time_sum.py]... 
+SKIPPED: /home/ubuntu/tryton-replay/nsys/20260929-111947/profile.sqlite does not contain GPU memory data.
+
+Processing [/home/ubuntu/tryton-replay/nsys/20260929-111947/profile.sqlite] with [/opt/nvidia/nsight-systems-cli/2026.5.1/target-linux-x64/reports/cuda_kern_exec_sum.py]... 
+SKIPPED: /home/ubuntu/tryton-replay/nsys/20260929-111947/profile.sqlite does not contain CUDA kernel data.
+

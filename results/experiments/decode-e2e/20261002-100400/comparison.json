@@ -1,0 +1,105 @@
+{
+  "baseline": {
+    "e2e_runs": [
+      94.05987386000015,
+      93.9716828329997
+    ],
+    "e2e_mean": 94.01577834649993,
+    "decode_mean": 66.991385,
+    "final_decode_mean": 20.481479999999998,
+    "target_top_k": 0
+  },
+  "target_top_k_1": {
+    "e2e_runs": [
+      87.11171305300013,
+      88.15476253399993
+    ],
+    "e2e_mean": 87.63323779350003,
+    "decode_mean": 60.49963,
+    "final_decode_mean": 18.46445
+  },
+  "full_normalized_equality_all_requests_all_runs": true,
+  "greedy_only": true,
+  "reference_not_permanently_changed": true,
+  "pmin": {
+    "0": {
+      "e2e_seconds": 94.05987386000015,
+      "full_changed_requests": [],
+      "functional_changed_requests": []
+    },
+    "0.35": {
+      "e2e_seconds": 94.55297018400006,
+      "full_changed_requests": [
+        1,
+        2,
+        10,
+        12,
+        15
+      ],
+      "functional_changed_requests": [
+        2,
+        15
+      ]
+    },
+    "0.55": {
+      "e2e_seconds": 93.85280954400014,
+      "full_changed_requests": [
+        1,
+        2,
+        4,
+        6,
+        10,
+        12,
+        15
+      ],
+      "functional_changed_requests": [
+        2,
+        4,
+        15
+      ]
+    }
+  },
+  "notes": [
+    "Two repeats per profile; observed repeatable win, no statistical confidence claim.",
+    "Engine round histograms have rounding; other is sampling/checkpoint/host work, not a standalone profiler trace.",
+    "Retokenized components approximate emitted boundaries; last is512 reasoning+1197 visible+3 unattributed, zero toolcalls.",
+    "E2E covers15 frozen inference requests, not actual ERP tool-execution latency."
+  ],
+  "e2e_saved_mean": 6.382540552999899,
+  "decode_saved_mean": 6.491754999999991,
+  "final_decode_saved_mean": 2.0170299999999983,
+  "final_phase_trace": {
+    "total_replay_seconds": 94.28707873400072,
+    "final_request_seconds": 25.150585226000658,
+    "final_stream_complete_seconds": 25.15054643700023,
+    "first_reasoning_delta_seconds": 4.599646564000068,
+    "first_visible_delta_seconds": 10.292606441000316,
+    "reasoning_stream_phase_seconds": 5.6929598770002485,
+    "visible_stream_phase_seconds": 14.857939995999914,
+    "normalized_final_equal_baseline": true,
+    "method": "First14 original raw requests; final changes only stream transport/include_usage. Times are arrival boundaries, not exact GPU token timestamps."
+  },
+  "baseline_sampling_configuration": {
+    "temperature": 0.0,
+    "top_k": 0,
+    "top_p": 1.0,
+    "min_p": 0.0,
+    "samplers": [
+      "penalties",
+      "dry",
+      "top_n_sigma",
+      "top_k",
+      "typ_p",
+      "top_p",
+      "min_p",
+      "xtc",
+      "temperature"
+    ],
+    "repeat_penalty": 1.0,
+    "frequency_penalty": 0.0,
+    "presence_penalty": 0.0,
+    "dry_multiplier": 0.0,
+    "dynatemp_range": 0.0,
+    "mirostat": 0
+  }
+}

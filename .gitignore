@@ -1,0 +1,7 @@
+# Local backups of remote hosts (may contain weights, credentials, private data)
+/backups/
+
+# Python / editor noise
+__pycache__/
+*.pyc
+.venv/
